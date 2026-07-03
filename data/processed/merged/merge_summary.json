@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-07-03T05:19:13.146674+00:00",
+  "status": "passed",
+  "outputs": {
+    "master_stops.csv": 164,
+    "master_routes.csv": 17,
+    "master_trips.csv": 210,
+    "master_stop_times.csv": 3391,
+    "master_calendar.csv": 10,
+    "master_calendar_dates.csv": 240,
+    "master_shapes.csv": 35789
+  }
+}

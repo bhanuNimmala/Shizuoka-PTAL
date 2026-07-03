@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-07-03T05:19:49.777988+00:00",
+  "status": "passed",
+  "input_rows": {
+    "stops": 164,
+    "routes": 17,
+    "trips": 210,
+    "stop_times": 3391,
+    "calendar": 10,
+    "calendar_dates": 240,
+    "shapes": 35789
+  },
+  "output_rows": {
+    "stops": 164,
+    "routes": 17,
+    "trips": 210,
+    "stop_times": 3391,
+    "calendar": 10,
+    "calendar_dates": 240,
+    "shapes": 35789
+  }
+}
