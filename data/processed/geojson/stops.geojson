@@ -1,0 +1,2629 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.286461964214,
+          35.133800350091
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i1_0",
+        "stop_name": "横沢",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.24965758411,
+          35.1861199110007
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i2_0",
+        "stop_name": "富士見峠",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.252122072089,
+          35.2014220695313
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i3_0",
+        "stop_name": "大日",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.221395138128,
+          35.2120190508798
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i4_0",
+        "stop_name": "井川駅前",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.223408651842,
+          35.217374401439
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i5_0",
+        "stop_name": "西山平",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.226949960398,
+          35.2188153015116
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i6_0",
+        "stop_name": "公民館前",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.236254864118,
+          35.2149618062354
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i7_0",
+        "stop_name": "井川小中学校入口",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.234657631667,
+          35.2188502162327
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i8_0",
+        "stop_name": "井川小中学校前",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.238858551047,
+          35.2217406225869
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i9_0",
+        "stop_name": "井川本村",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.241149964117,
+          35.2232509274683
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i10_0",
+        "stop_name": "中野",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.242955353412,
+          35.2235547587033
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i11_0",
+        "stop_name": "南アルプスユネスコエコパーク井川ビジターセンター",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.243996986655,
+          35.2220792570959
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i12_0",
+        "stop_name": "診療所",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.240455666262,
+          35.2209508217523
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i13_0",
+        "stop_name": "渡船場",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.248440407124,
+          35.2390566236926
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i14_0",
+        "stop_name": "井川大橋",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.24521135809,
+          35.2432574566971
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i15_0",
+        "stop_name": "中山",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.24198223471,
+          35.2494198740871
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i16_0",
+        "stop_name": "大島",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.240280782435,
+          35.2549400416795
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i17_0",
+        "stop_name": "北小跡入口",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.234413157353,
+          35.2568580785048
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i18_0",
+        "stop_name": "田代",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.235489130394,
+          35.2653901300406
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i19_0",
+        "stop_name": "小河内",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.196706152452,
+          35.3071205441839
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ikawa_20260401_20260630213838_i20_0",
+        "stop_name": "白樺荘",
+        "source_feed_id": "feed_shizuokacity_ikawa_20260401_20260630213838",
+        "source_feed_folder": "feed_shizuokacity_ikawa_20260401_20260630213838"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.388692,
+          34.972619
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f1_0",
+        "stop_name": "静岡駅前",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.385824,
+          34.974501
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f2_0",
+        "stop_name": "新静岡御幸町",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.386207,
+          34.974819
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f3_0",
+        "stop_name": "新静岡伝馬町",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.380829,
+          34.97662
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f4_1",
+        "stop_name": "中町",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.379971,
+          34.977255
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f4_2",
+        "stop_name": "中町",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.385322,
+          34.983575
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f5_1",
+        "stop_name": "アイセル21",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.385394,
+          34.983507
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f5_2",
+        "stop_name": "アイセル21",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.388057,
+          34.985657
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f6_0",
+        "stop_name": "城東保健福祉エリア",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.389517,
+          34.988821
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f7_1",
+        "stop_name": "西千代田",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.389819,
+          34.98863
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f7_2",
+        "stop_name": "西千代田",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.390343,
+          34.996713
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f8_1",
+        "stop_name": "柳新田西",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.390343,
+          34.996713
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f8_2",
+        "stop_name": "柳新田西",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.387802,
+          34.999315
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f9_1",
+        "stop_name": "柳新田北",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.38784,
+          34.999382
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f9_2",
+        "stop_name": "柳新田北",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.387121,
+          35.003321
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444_f10_0",
+        "stop_name": "県立総合病院",
+        "source_feed_id": "feed_shizuokacity_iryo_fukushi_20260401_20260630214444",
+        "source_feed_folder": "feed_shizuokacity_iryo-fukushi_20260401_20260630214444"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.508770650174,
+          35.0995390466613
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_t1_0",
+        "stop_name": "但沼車庫前",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.504743116423,
+          35.102168856413
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_t2_0",
+        "stop_name": "長又",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.503736095372,
+          35.1064565433323
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_t3_0",
+        "stop_name": "雨乞",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.494153725357,
+          35.1026199235136
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_t4_0",
+        "stop_name": "清地",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.48984832678,
+          35.1081747446986
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_t5_0",
+        "stop_name": "高瀬",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.479363055555,
+          35.1096326458261
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_t6_0",
+        "stop_name": "和田島",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.476446636903,
+          35.1096586099398
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_t7_0",
+        "stop_name": "和田島車庫",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.466447540657,
+          35.108339057948
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o1_0",
+        "stop_name": "茂の島東",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.463461659525,
+          35.1089986296605
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o2_0",
+        "stop_name": "茂の島",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.460649194858,
+          35.1144059360888
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o3_0",
+        "stop_name": "大網口",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.452802548415,
+          35.116896774842
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o4_0",
+        "stop_name": "土",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.442525541615,
+          35.1197173754931
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o5_0",
+        "stop_name": "西河内小学校",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.440407535813,
+          35.1231804736777
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o6_0",
+        "stop_name": "宮城",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.436518914695,
+          35.1248815718789
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o7_0",
+        "stop_name": "寺尾島",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.433498451841,
+          35.1219130783819
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o8_0",
+        "stop_name": "西里温泉前",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.433359356874,
+          35.1276676361797
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o9_0",
+        "stop_name": "下片瀬",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.432630129865,
+          35.1309051007468
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o10_0",
+        "stop_name": "片瀬",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.433428606321,
+          35.1326583962492
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o11_0",
+        "stop_name": "八幡温泉前",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.433741028319,
+          35.1340124186578
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o12_0",
+        "stop_name": "河内局前",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.434331146468,
+          35.1368940541719
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o13_0",
+        "stop_name": "河内",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.432560283187,
+          35.1416764572036
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o14_0",
+        "stop_name": "大島入口",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.430546437416,
+          35.1450788008478
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o15_0",
+        "stop_name": "岩下",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.431032388197,
+          35.1482121414501
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o16_0",
+        "stop_name": "大平南",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.431171201044,
+          35.1499046629831
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o17_0",
+        "stop_name": "大平下",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.430650355941,
+          35.1513888577322
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o18_0",
+        "stop_name": "大平中",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.428428173215,
+          35.155355368639
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_o19_0",
+        "stop_name": "大平",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.489778848786,
+          35.1092162925484
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_z1_0",
+        "stop_name": "高瀬上",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.481827800798,
+          35.1181300178413
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_z2_0",
+        "stop_name": "下田橋",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.480473625031,
+          35.1214195440153
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_z3_0",
+        "stop_name": "小川",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.478459781059,
+          35.1247698103421
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_z4_0",
+        "stop_name": "桑又",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.475334946529,
+          35.1274430409737
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_z5_0",
+        "stop_name": "桑原",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.473425246177,
+          35.1311665318594
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_z6_0",
+        "stop_name": "遠呂島",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.470230920147,
+          35.1352371730239
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_z7_0",
+        "stop_name": "遠呂島上",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.471411303758,
+          35.1371119924741
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_z8_0",
+        "stop_name": "中河内学校前",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.470959883285,
+          35.138960731405
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_z9_0",
+        "stop_name": "木山野",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.470751435359,
+          35.1424499171156
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_z10_0",
+        "stop_name": "中河内",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.466550279854,
+          35.1457567294025
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_z11_0",
+        "stop_name": "宮島",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.46405038373,
+          35.1486469654059
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_z12_0",
+        "stop_name": "松葉",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.460994984129,
+          35.1514156730563
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904_z13_0",
+        "stop_name": "板井沢",
+        "source_feed_id": "feed_shizuokacity_ryougouchi_20260401_20260630200904",
+        "source_feed_folder": "feed_shizuokacity_ryougouchi_20260401_20260630200904"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55273,
+          35.09731
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b1_0",
+        "stop_name": "由比駅",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55457,
+          35.10005
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b2_0",
+        "stop_name": "今宿",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55609,
+          35.10224
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b3_0",
+        "stop_name": "中央ガレージ前",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.559163,
+          35.103773
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b4_0",
+        "stop_name": "由比むつみ市場前",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.561523,
+          35.104717
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b5_0",
+        "stop_name": "JAしみず由比支店前",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.56411,
+          35.10585
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b6_0",
+        "stop_name": "由比川橋西",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.56727,
+          35.10743
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b7_0",
+        "stop_name": "由比本陣公園前",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.57099,
+          35.10959
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b8_0",
+        "stop_name": "由比自治会前",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.57297,
+          35.11095
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b9_0",
+        "stop_name": "神沢川酒造場前",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.57564,
+          35.11265
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b10_1",
+        "stop_name": "西神沢",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.57324,
+          35.11147
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b10_2",
+        "stop_name": "西神沢",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.57845,
+          35.11373
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b11_1",
+        "stop_name": "神沢",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.5779,
+          35.11345
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b11_2",
+        "stop_name": "神沢",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.583,
+          35.11435
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b12_0",
+        "stop_name": "蒲原駅",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.58685,
+          35.11529
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b13_1",
+        "stop_name": "中村",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.58762,
+          35.11534
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b13_2",
+        "stop_name": "中村",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.59105,
+          35.11599
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b14_1",
+        "stop_name": "小金",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.59147,
+          35.11601
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b14_2",
+        "stop_name": "小金",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.59491,
+          35.11664
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b15_1",
+        "stop_name": "蒲原体育館前",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.59533,
+          35.11663
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b15_2",
+        "stop_name": "蒲原体育館前",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.59984,
+          35.11752
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b16_1",
+        "stop_name": "砂防事務所入口",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.60053,
+          35.11753
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b16_2",
+        "stop_name": "砂防事務所入口",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.60453,
+          35.11886
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b17_1",
+        "stop_name": "蒲原本町",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.604,
+          35.11866
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b17_2",
+        "stop_name": "蒲原本町",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6073,
+          35.11957
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b18_1",
+        "stop_name": "新蒲原駅",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.608,
+          35.11971
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b18_2",
+        "stop_name": "新蒲原駅",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.61202,
+          35.1225
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b19_1",
+        "stop_name": "軽金入口",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.6122,
+          35.12251
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b19_2",
+        "stop_name": "軽金入口",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.61685,
+          35.1259
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b20_1",
+        "stop_name": "富士見橋",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.61695,
+          35.12585
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b20_2",
+        "stop_name": "富士見橋",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.61609,
+          35.13304
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b21_0",
+        "stop_name": "蒲原病院",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.57106,
+          35.11095
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b22_0",
+        "stop_name": "新町",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.56817,
+          35.10971
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b23_0",
+        "stop_name": "入山入口東",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.56498,
+          35.10839
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b24_0",
+        "stop_name": "入山入口",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.56345,
+          35.10777
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b25_0",
+        "stop_name": "由比川橋",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.56071,
+          35.10668
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b26_0",
+        "stop_name": "由比北田",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55811,
+          35.10579
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b27_0",
+        "stop_name": "町屋原",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55658,
+          35.10435
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b28_0",
+        "stop_name": "西山入口",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55519,
+          35.10303
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b29_0",
+        "stop_name": "今宿東",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55439,
+          35.10128
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b30_0",
+        "stop_name": "今宿上",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55373,
+          35.0994
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b31_0",
+        "stop_name": "平",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55234,
+          35.09751
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146_b32_0",
+        "stop_name": "由比駅上",
+        "source_feed_id": "feed_shizuokacity_yui_kanbara_20260401_20260630200146",
+        "source_feed_folder": "feed_shizuokacity_yui-kanbara_20260401_20260630200146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.570674660461,
+          35.1108848449938
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y1_0",
+        "stop_name": "庵原分署",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.57297,
+          35.11095
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y2_0",
+        "stop_name": "神沢川酒造場前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.57099,
+          35.10959
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y3_0",
+        "stop_name": "由比自治会前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.56727,
+          35.10743
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y4_0",
+        "stop_name": "由比本陣公園前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.565779336992,
+          35.1084544368361
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y5_0",
+        "stop_name": "滝冷蔵庫前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.56411,
+          35.10585
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y6_0",
+        "stop_name": "由比川橋西",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.562168594189,
+          35.1068659809686
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y7_0",
+        "stop_name": "由比生涯学習交流館",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.561404827799,
+          35.1053557143463
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y8_0",
+        "stop_name": "ＪＡしみず由比支店前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.559182854754,
+          35.1037846532658
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y9_0",
+        "stop_name": "由比むつみ市場前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55609,
+          35.10224
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y10_0",
+        "stop_name": "中央ガレージ前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55457,
+          35.10005
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y11_0",
+        "stop_name": "今宿",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55273,
+          35.09731
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y12_0",
+        "stop_name": "由比駅",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.568799850377,
+          35.110094955059
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y13_0",
+        "stop_name": "慈徳寺入口",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.566300034254,
+          35.1108673736102
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y14_0",
+        "stop_name": "本光寺駐車場前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.562619731628,
+          35.1124730016199
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y15_0",
+        "stop_name": "桜新道",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.560085074604,
+          35.1164481844984
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y16_0",
+        "stop_name": "牛沢橋",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.559217044295,
+          35.1177327401483
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y17_0",
+        "stop_name": "東山寺自治会館前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.556682482241,
+          35.1192082038178
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y18_0",
+        "stop_name": "福島自動車上",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.555918478788,
+          35.1239385555566
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y19_0",
+        "stop_name": "室野会館",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.556647434812,
+          35.1278443854274
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y20_0",
+        "stop_name": "幸橋",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.556925089587,
+          35.1304569462331
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y21_0",
+        "stop_name": "第３分団車庫",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55803594289,
+          35.1347446874041
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y22_0",
+        "stop_name": "入山橋",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.56157695349,
+          35.1440492882844
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y23_0",
+        "stop_name": "福沢橋",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.562409883128,
+          35.1527896468489
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y24_0",
+        "stop_name": "大城",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.574874273344,
+          35.148163750702
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y25_0",
+        "stop_name": "香木穴橋",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.562410375188,
+          35.1398570724385
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y26_0",
+        "stop_name": "舟場入口",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.550433970283,
+          35.0940546189978
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y27_0",
+        "stop_name": "第３プール前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.548663382144,
+          35.0915722135216
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y28_0",
+        "stop_name": "小池邸明かりの博物館前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.548350996365,
+          35.089263437026
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y29_0",
+        "stop_name": "寺尾西",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.546927683082,
+          35.0846111452309
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y30_0",
+        "stop_name": "権現橋",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.546788862969,
+          35.0831095741843
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y31_0",
+        "stop_name": "倉沢自治会公会堂",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.546580609923,
+          35.0814604484807
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y32_0",
+        "stop_name": "倉沢漁業事務所",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.560745067254,
+          35.1078467370739
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y33_0",
+        "stop_name": "商工会前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.55952974612,
+          35.1117177988557
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y34_0",
+        "stop_name": "潘医院前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.559876845427,
+          35.1141741290575
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y35_0",
+        "stop_name": "三鋼仮設資材置場裏",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.558453161872,
+          35.1192776858806
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y36_0",
+        "stop_name": "東内",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.558418309706,
+          35.1227755559089
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y37_0",
+        "stop_name": "大門",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.555293257986,
+          35.1311512707905
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y38_0",
+        "stop_name": "山内朝日堂",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.550606178063,
+          35.1306216961467
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y39_0",
+        "stop_name": "銚子口の滝入口",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.546092187337,
+          35.1434326407018
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y40_0",
+        "stop_name": "桜野会館",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.546370364745,
+          35.1322967464807
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y41_0",
+        "stop_name": "槍野会館",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.558071534213,
+          35.1117958776824
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y42_0",
+        "stop_name": "阿僧分譲地内公園前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.556023023348,
+          35.1137574103504
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y43_0",
+        "stop_name": "浜石の郷入口",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.552308046018,
+          35.1141912941061
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y44_0",
+        "stop_name": "白井沢生産組合",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.551440277747,
+          35.1085755832455
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y45_0",
+        "stop_name": "西山寺",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.553245724764,
+          35.107377847416
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y46_0",
+        "stop_name": "西山寺自治会館前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.555606680943,
+          35.1061540870856
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y47_0",
+        "stop_name": "原藤商店倉庫前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.558523045447,
+          35.1075602539298
+        ]
+      },
+      "properties": {
+        "stop_id": "feed_shizuokacity_yui_20260401_20260630174723_y48_0",
+        "stop_name": "町屋原団地前",
+        "source_feed_id": "feed_shizuokacity_yui_20260401_20260630174723",
+        "source_feed_folder": "feed_shizuokacity_yui_20260401_20260630174723"
+      }
+    }
+  ]
+}
