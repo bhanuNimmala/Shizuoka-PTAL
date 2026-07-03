@@ -1,0 +1,54 @@
+﻿table_name,field_name,language,translation,record_id,field_value
+stops,stop_name,ja-Hrkt,よこさわ,,横沢
+stops,stop_name,en,Yokosawa,,横沢
+stops,stop_name,ja-Hrkt,ふじみとうげ,,富士見峠
+stops,stop_name,en,Fujimi Toge,,富士見峠
+stops,stop_name,ja-Hrkt,だいにち,,大日
+stops,stop_name,en,Dainichi,,大日
+stops,stop_name,ja-Hrkt,いかわえきまえ,,井川駅前
+stops,stop_name,en,Ikawa Eki Mae (Ikawa Sta.),,井川駅前
+stops,stop_name,ja-Hrkt,にしやまだいら,,西山平
+stops,stop_name,en,Nishiyamadaira,,西山平
+stops,stop_name,ja-Hrkt,こうみんかんまえ,,公民館前
+stops,stop_name,en,Kominkan Mae,,公民館前
+stops,stop_name,ja-Hrkt,いかわしょうちゅうがっこういりぐち,,井川小中学校入口
+stops,stop_name,en,Ikawa Shochugakko Iriguchi,,井川小中学校入口
+stops,stop_name,ja-Hrkt,いかわしょうちゅうがっこうまえ,,井川小中学校前
+stops,stop_name,en,Ikawa Shochugakko Mae,,井川小中学校前
+stops,stop_name,ja-Hrkt,いかわほんむら,,井川本村
+stops,stop_name,en,Ikawa Honmura,,井川本村
+stops,stop_name,ja-Hrkt,なかの,,中野
+stops,stop_name,en,Nakano,,中野
+stops,stop_name,ja-Hrkt,みなみあるぷすゆねすこえこぱーくいかわびじたーせんたー,,南アルプスユネスコエコパーク井川ビジターセンター
+stops,stop_name,en,Ikawa Bijita Senta (Ikawa Visitors' Center),,南アルプスユネスコエコパーク井川ビジターセンター
+stops,stop_name,ja-Hrkt,しんりょうじょ,,診療所
+stops,stop_name,en,Shinryojo,,診療所
+stops,stop_name,ja-Hrkt,とせんば,,渡船場
+stops,stop_name,en,Tosenba (Ferry Port),,渡船場
+stops,stop_name,ja-Hrkt,いかわおおはし,,井川大橋
+stops,stop_name,en,Ikawa Ohashi,,井川大橋
+stops,stop_name,ja-Hrkt,なかやま,,中山
+stops,stop_name,en,Nakayama,,中山
+stops,stop_name,ja-Hrkt,おおしま,,大島
+stops,stop_name,en,Oshima,,大島
+stops,stop_name,ja-Hrkt,きたしょうあといりぐち,,北小跡入口
+stops,stop_name,en,Kitasho Ato Iriguchi,,北小跡入口
+stops,stop_name,ja-Hrkt,たしろ,,田代
+stops,stop_name,en,Tashiro,,田代
+stops,stop_name,ja-Hrkt,こごうち,,小河内
+stops,stop_name,en,Kogochi,,小河内
+stops,stop_name,ja-Hrkt,しらかばそう,,白樺荘
+stops,stop_name,en,Shirakabaso (Shirakabaso Hot Spring and Accommodation Facility),,白樺荘
+routes,route_long_name,ja-Hrkt,いかわせん,,井川線
+routes,route_long_name,en,Ikawa Sen,,井川線
+agency,agency_name,en,Shizuoka City bus,8000020221007_5,
+trips,trip_headsign,ja-Hrkt,こごうちいき,,小河内行き
+trips,trip_headsign,en,Kogochi Iki,,小河内行き
+trips,trip_headsign,ja-Hrkt,しらかばそういき,,白樺荘行き
+trips,trip_headsign,en,Shirakabaso Iki,,白樺荘行き
+trips,trip_headsign,ja-Hrkt,にしやまだいらいき,,西山平行き
+trips,trip_headsign,en,Nishiyamadaira Iki,,西山平行き
+trips,trip_headsign,ja-Hrkt,よこさわいき,,横沢行き
+trips,trip_headsign,en,Yokosawa Iki,,横沢行き
+trips,trip_headsign,ja-Hrkt,いかわえきまえいき,,井川駅前行き
+trips,trip_headsign,en,Ikawa Eki Iki (to Ikawa Sta.),,井川駅前行き

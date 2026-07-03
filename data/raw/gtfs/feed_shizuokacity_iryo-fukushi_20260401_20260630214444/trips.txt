@@ -1,0 +1,13 @@
+route_id,service_id,trip_id,trip_headsign,direction_id,wheelchair_accessible,bikes_allowed,jp_office_id,shape_id
+f1,f-weekday,f1+1+f-weekday+1,県立総合病院前行き,1,2,2,shizuokacity,SHP0001
+f1,f-weekday,f1+1+f-weekday+2,県立総合病院前行き,1,2,2,shizuokacity,SHP0001
+f1,f-weekday,f1+1+f-weekday+3,県立総合病院前行き,1,2,2,shizuokacity,SHP0001
+f1,f-weekday,f1+1+f-weekday+4,県立総合病院前行き,1,2,2,shizuokacity,SHP0001
+f1,f-weekday,f1+1+f-weekday+5,県立総合病院前行き,1,2,2,shizuokacity,SHP0001
+f1,f-weekday,f1+1+f-weekday+6,県立総合病院前行き,1,2,2,shizuokacity,SHP0001
+f2,f-weekday,f2+0+f-weekday+1,静岡駅前行き,0,2,2,shizuokacity,SHP0002
+f2,f-weekday,f2+0+f-weekday+2,静岡駅前行き,0,2,2,shizuokacity,SHP0002
+f2,f-weekday,f2+0+f-weekday+3,静岡駅前行き,0,2,2,shizuokacity,SHP0002
+f2,f-weekday,f2+0+f-weekday+4,静岡駅前行き,0,2,2,shizuokacity,SHP0002
+f2,f-weekday,f2+0+f-weekday+5,静岡駅前行き,0,2,2,shizuokacity,SHP0002
+f2,f-weekday,f2+0+f-weekday+6,静岡駅前行き,0,2,2,shizuokacity,SHP0002

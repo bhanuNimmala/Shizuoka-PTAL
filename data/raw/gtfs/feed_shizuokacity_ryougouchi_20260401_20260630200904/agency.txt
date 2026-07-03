@@ -1,0 +1,2 @@
+﻿agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone
+8000020221007_4,静岡市自主運行バス,https://www.city.shizuoka.lg.jp/p008613.html,Asia/Tokyo,ja,0542542111

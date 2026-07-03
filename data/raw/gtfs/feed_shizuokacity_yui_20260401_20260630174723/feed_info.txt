@@ -1,0 +1,2 @@
+﻿feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version,feed_contact_email,feed_contact_url
+静岡市,https://www.city.shizuoka.lg.jp,ja,20260401,20270630,2026v2-2026年06月30日 16時48分20秒-西沢ツールver8.31,kotsu@city.shizuoka.lg.jp,https://www.city.shizuoka.lg.jp

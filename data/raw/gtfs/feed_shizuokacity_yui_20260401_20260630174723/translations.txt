@@ -1,0 +1,104 @@
+﻿table_name,field_name,language,translation,record_id,field_value
+stops,stop_name,ja-Hrkt,いはらぶんしょ,,庵原分署
+stops,stop_name,en,Ihara Bunsho,,庵原分署
+stops,stop_name,ja-Hrkt,かんざわがわしゅぞうじょうまえ,,神沢川酒造場前
+stops,stop_name,en,Kanzawagawa Shuzojo Mae,,神沢川酒造場前
+stops,stop_name,ja-Hrkt,ゆいじちかいまえ,,由比自治会前
+stops,stop_name,en,Yui Jichikai Mae,,由比自治会前
+stops,stop_name,ja-Hrkt,ゆいほんじんこうえんまえ,,由比本陣公園前
+stops,stop_name,en,Yui Honjin Koen Mae,,由比本陣公園前
+stops,stop_name,ja-Hrkt,たきれいぞうこまえ,,滝冷蔵庫前
+stops,stop_name,en,Taki Reizoko Mae,,滝冷蔵庫前
+stops,stop_name,ja-Hrkt,ゆいがわばしにし,,由比川橋西
+stops,stop_name,en,Yuigawabashi Nishi,,由比川橋西
+stops,stop_name,ja-Hrkt,ゆいしょうがいがくしゅうこうりゅうかん,,由比生涯学習交流館
+stops,stop_name,en,Yui Shogai Gakushu Koryukan,,由比生涯学習交流館
+stops,stop_name,ja-Hrkt,じぇいえーしみずゆいしてんまえ,,ＪＡしみず由比支店前
+stops,stop_name,en,JA Shimizu Yui Shiten Mae,,ＪＡしみず由比支店前
+stops,stop_name,ja-Hrkt,ゆいむつみいちばまえ,,由比むつみ市場前
+stops,stop_name,en,Yui Mutsumi Ichiba Mae,,由比むつみ市場前
+stops,stop_name,ja-Hrkt,ちゅうおうがれーじまえ,,中央ガレージ前
+stops,stop_name,en,Chuo Gareji Mae,,中央ガレージ前
+stops,stop_name,ja-Hrkt,いまじゅく,,今宿
+stops,stop_name,en,Imajuku,,今宿
+stops,stop_name,ja-Hrkt,ゆいえき,,由比駅
+stops,stop_name,en,Yui Eki (Yui Sta.),,由比駅
+stops,stop_name,ja-Hrkt,じとくじいりぐち,,慈徳寺入口
+stops,stop_name,en,Jitokuji Iriguchi,,慈徳寺入口
+stops,stop_name,ja-Hrkt,ほんこうじちゅうしゃじょうまえ,,本光寺駐車場前
+stops,stop_name,en,Honkoji Chushajo Mae,,本光寺駐車場前
+stops,stop_name,ja-Hrkt,さくらしんどう,,桜新道
+stops,stop_name,en,Sakura Shindo,,桜新道
+stops,stop_name,ja-Hrkt,うしざわばし,,牛沢橋
+stops,stop_name,en,Ushizawabashi,,牛沢橋
+stops,stop_name,ja-Hrkt,ひがしやまでらじちかいかんまえ,,東山寺自治会館前
+stops,stop_name,en,Higashiyamadera Jichikaikan Mae,,東山寺自治会館前
+stops,stop_name,ja-Hrkt,ふくしまじどうしゃうえ,,福島自動車上
+stops,stop_name,en,Fukushima Jidosha Ue,,福島自動車上
+stops,stop_name,ja-Hrkt,むろのかいかん,,室野会館
+stops,stop_name,en,Murono Kaikan,,室野会館
+stops,stop_name,ja-Hrkt,さいわいばし,,幸橋
+stops,stop_name,en,Saiwaibashi,,幸橋
+stops,stop_name,ja-Hrkt,だいさんぶんだんしゃこ,,第３分団車庫
+stops,stop_name,en,Dai San Bundan Shako,,第３分団車庫
+stops,stop_name,ja-Hrkt,いりやまばし,,入山橋
+stops,stop_name,en,Iriyamabashi,,入山橋
+stops,stop_name,ja-Hrkt,ふくざわばし,,福沢橋
+stops,stop_name,en,Fukuzawabashi,,福沢橋
+stops,stop_name,ja-Hrkt,おおじろ,,大城
+stops,stop_name,en,Ojiro,,大城
+stops,stop_name,ja-Hrkt,かぎあなばし,,香木穴橋
+stops,stop_name,en,Kagianabashi,,香木穴橋
+stops,stop_name,ja-Hrkt,ふなばいりぐち,,舟場入口
+stops,stop_name,en,Funaba Iriguchi,,舟場入口
+stops,stop_name,ja-Hrkt,だいさんぷーるまえ,,第３プール前
+stops,stop_name,en,Dai San Puru Mae,,第３プール前
+stops,stop_name,ja-Hrkt,こいけていあかりのはくぶつかんまえ,,小池邸明かりの博物館前
+stops,stop_name,en,Koike Tei Akari no Hakubutsukan Mae,,小池邸明かりの博物館前
+stops,stop_name,ja-Hrkt,てらおにし,,寺尾西
+stops,stop_name,en,Terao Nishi,,寺尾西
+stops,stop_name,ja-Hrkt,ごんげんばし,,権現橋
+stops,stop_name,en,Gongenbashi,,権現橋
+stops,stop_name,ja-Hrkt,くらさわじちかいこうかいどう,,倉沢自治会公会堂
+stops,stop_name,en,Kurasawa Jichikai Kokaido,,倉沢自治会公会堂
+stops,stop_name,ja-Hrkt,くらさわぎょぎょうじむしょ,,倉沢漁業事務所
+stops,stop_name,en,Kurasawa Gyogyo Jimusho,,倉沢漁業事務所
+stops,stop_name,ja-Hrkt,しょうこうかいまえ,,商工会前
+stops,stop_name,en,Shokokai Mae,,商工会前
+stops,stop_name,ja-Hrkt,ばんいいんまえ,,潘医院前
+stops,stop_name,en,Ban Iin Mae,,潘医院前
+stops,stop_name,ja-Hrkt,さんこうかせつしざいおきばうら,,三鋼仮設資材置場裏
+stops,stop_name,en,Sanko Kasetsu Shizai Okiba Ura,,三鋼仮設資材置場裏
+stops,stop_name,ja-Hrkt,ひがしない,,東内
+stops,stop_name,en,Higashinai,,東内
+stops,stop_name,ja-Hrkt,だいもん,,大門
+stops,stop_name,en,Daimon,,大門
+stops,stop_name,ja-Hrkt,やまうちあさひどう,,山内朝日堂
+stops,stop_name,en,Yamauchi Asahido,,山内朝日堂
+stops,stop_name,ja-Hrkt,ちょうしぐちのたきいりぐち,,銚子口の滝入口
+stops,stop_name,en,Choshiguchi-no-Taki Iriguchi,,銚子口の滝入口
+stops,stop_name,ja-Hrkt,さくらのかいかん,,桜野会館
+stops,stop_name,en,Sakurano Kaikan,,桜野会館
+stops,stop_name,ja-Hrkt,うつぎのかいかん,,槍野会館
+stops,stop_name,en,Utsugino Kaikan,,槍野会館
+stops,stop_name,ja-Hrkt,あそぶんじょうちないこうえんまえ,,阿僧分譲地内公園前
+stops,stop_name,en,Aso Bunjochinai Koen Mae,,阿僧分譲地内公園前
+stops,stop_name,ja-Hrkt,はまいしのさといりぐち,,浜石の郷入口
+stops,stop_name,en,Hamaishi-no-Sato Iriguchi,,浜石の郷入口
+stops,stop_name,ja-Hrkt,しらいさわせいさんくみあい,,白井沢生産組合
+stops,stop_name,en,Shiraisawa Seisan Kumiai,,白井沢生産組合
+stops,stop_name,ja-Hrkt,にしやまでら,,西山寺
+stops,stop_name,en,Nishiyamadera,,西山寺
+stops,stop_name,ja-Hrkt,にしやまでらじちかいかんまえ,,西山寺自治会館前
+stops,stop_name,en,Nishiyamadera Jichikaikan Mae,,西山寺自治会館前
+stops,stop_name,ja-Hrkt,はらとうしょうてんそうこまえ,,原藤商店倉庫前
+stops,stop_name,en,Harato Shoten Soko Mae,,原藤商店倉庫前
+stops,stop_name,ja-Hrkt,まちやばらだんちまえ,,町屋原団地前
+stops,stop_name,en,Machiyabara Danchi Mae,,町屋原団地前
+routes,route_long_name,ja-Hrkt,ゆいばす,,ゆいばす
+routes,route_long_name,en,Yui Basu,,ゆいばす
+agency,agency_name,en,Shizuoka City bus,8000020221007_1,
+trips,trip_headsign,ja-Hrkt,さくらのあそこーす,,桜野阿僧コース
+trips,trip_headsign,en,Sakurano Aso Course,,桜野阿僧コース
+trips,trip_headsign,ja-Hrkt,かぎあなくらさわこーす,,香木穴倉沢コース
+trips,trip_headsign,en,Kagiana Kurasawa Course,,香木穴倉沢コース

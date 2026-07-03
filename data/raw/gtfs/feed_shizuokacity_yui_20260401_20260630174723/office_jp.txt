@@ -1,0 +1,2 @@
+﻿office_id,office_name,office_phone
+shinkoh,信興バス株式会社,0545601234

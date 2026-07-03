@@ -1,0 +1,4 @@
+﻿fare_id,route_id,origin_id,destination_id
+t1_00,t1,,
+o1_00,o1,,
+z1_00,z1,,

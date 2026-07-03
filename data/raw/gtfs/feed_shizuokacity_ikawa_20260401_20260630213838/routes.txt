@@ -1,0 +1,3 @@
+﻿route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_color,route_text_color
+i1,8000020221007_5,,井川線,,3,,000000
+i2,8000020221007_5,,井川線,,3,,000000

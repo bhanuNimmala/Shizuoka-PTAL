@@ -1,0 +1,3 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_color,route_text_color
+f1,8000020221007_7,,医療・福祉施設路線,,3,04301D,FFFFFF
+f2,8000020221007_7,,医療・福祉施設路線,,3,04301D,FFFFFF

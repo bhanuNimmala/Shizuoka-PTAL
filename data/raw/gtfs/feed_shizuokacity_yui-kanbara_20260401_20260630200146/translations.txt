@@ -1,0 +1,72 @@
+﻿table_name,field_name,language,translation,record_id,field_value
+stops,stop_name,ja-Hrkt,ゆいえき,,由比駅
+stops,stop_name,en,Yui Eki (Yui Sta.),,由比駅
+stops,stop_name,ja-Hrkt,いまじゅく,,今宿
+stops,stop_name,en,Imajuku,,今宿
+stops,stop_name,ja-Hrkt,ちゅうおうがれーじまえ,,中央ガレージ前
+stops,stop_name,en,Chuo Gareji Mae,,中央ガレージ前
+stops,stop_name,ja-Hrkt,ゆいむつみいちばまえ,,由比むつみ市場前
+stops,stop_name,en,Yui Mutsumi Ichiba Mae,,由比むつみ市場前
+stops,stop_name,ja-Hrkt,じぇいえーしみずゆいしてんまえ,,JAしみず由比支店前
+stops,stop_name,en,JA Shimizu Yui Shiten Mae,,JAしみず由比支店前
+stops,stop_name,ja-Hrkt,ゆいがわばしにし,,由比川橋西
+stops,stop_name,en,Yuigawabashi Nishi,,由比川橋西
+stops,stop_name,ja-Hrkt,ゆいほんじんこうえんまえ,,由比本陣公園前
+stops,stop_name,en,Yui Honjin Koen Mae,,由比本陣公園前
+stops,stop_name,ja-Hrkt,ゆいじちかいまえ,,由比自治会前
+stops,stop_name,en,Yui Jichikai Mae,,由比自治会前
+stops,stop_name,ja-Hrkt,かんざわがわしゅぞうじょうまえ,,神沢川酒造場前
+stops,stop_name,en,Kanzawagawa Shuzojo Mae,,神沢川酒造場前
+stops,stop_name,ja-Hrkt,にしかんざわ,,西神沢
+stops,stop_name,en,Nishi Kanzawa,,西神沢
+stops,stop_name,ja-Hrkt,かんざわ,,神沢
+stops,stop_name,en,Kanzawa,,神沢
+stops,stop_name,ja-Hrkt,かんばらえき,,蒲原駅
+stops,stop_name,en,Kambara Eki (Kambara Sta.),,蒲原駅
+stops,stop_name,ja-Hrkt,なかむら,,中村
+stops,stop_name,en,Nakamura,,中村
+stops,stop_name,ja-Hrkt,こがね,,小金
+stops,stop_name,en,Kogane,,小金
+stops,stop_name,ja-Hrkt,かんばらたいいくかんまえ,,蒲原体育館前
+stops,stop_name,en,Kambara Taiikukan Mae,,蒲原体育館前
+stops,stop_name,ja-Hrkt,さぼうじむしょいりぐち,,砂防事務所入口
+stops,stop_name,en,Sabo Jimusho Iriguchi,,砂防事務所入口
+stops,stop_name,ja-Hrkt,かんばらほんちょう,,蒲原本町
+stops,stop_name,en,Kambara Honcho,,蒲原本町
+stops,stop_name,ja-Hrkt,しんかんばらえき,,新蒲原駅
+stops,stop_name,en,Shin-Kambara Eki (Shin-Kambara Sta.),,新蒲原駅
+stops,stop_name,ja-Hrkt,けいきんいりぐち,,軽金入口
+stops,stop_name,en,Keikin Iriguchi,,軽金入口
+stops,stop_name,ja-Hrkt,ふじみばし,,富士見橋
+stops,stop_name,en,Fujimibashi,,富士見橋
+stops,stop_name,ja-Hrkt,かんばらびょういん,,蒲原病院
+stops,stop_name,en,Kambara Byoin (Kambara Hospital),,蒲原病院
+stops,stop_name,ja-Hrkt,しんまち,,新町
+stops,stop_name,en,Shinmachi,,新町
+stops,stop_name,ja-Hrkt,いりやまいりぐちひがし,,入山入口東
+stops,stop_name,en,Iriyama Iriguchi Higashi,,入山入口東
+stops,stop_name,ja-Hrkt,いりやまいりぐちひがし,,入山入口
+stops,stop_name,en,Iriyama Iriguchi,,入山入口
+stops,stop_name,ja-Hrkt,ゆいがわばし,,由比川橋
+stops,stop_name,en,Yuigawabashi,,由比川橋
+stops,stop_name,ja-Hrkt,ゆいきただ,,由比北田
+stops,stop_name,en,Yui Kitada,,由比北田
+stops,stop_name,ja-Hrkt,まちやばら,,町屋原
+stops,stop_name,en,Machiyabara,,町屋原
+stops,stop_name,ja-Hrkt,にしやまいりぐち,,西山入口
+stops,stop_name,en,Nishiyama Iriguchi,,西山入口
+stops,stop_name,ja-Hrkt,いまじゅくひがし,,今宿東
+stops,stop_name,en,Imajuku Higashi,,今宿東
+stops,stop_name,ja-Hrkt,いまじゅくうえ,,今宿上
+stops,stop_name,en,Imajuku Ue,,今宿上
+stops,stop_name,ja-Hrkt,だいら,,平
+stops,stop_name,en,Daira,,平
+stops,stop_name,ja-Hrkt,ゆいえきうえ,,由比駅上
+stops,stop_name,en,Yui Eki Ue,,由比駅上
+routes,route_long_name,ja-Hrkt,ゆいかんばらびょういんせん,,由比蒲原病院線
+routes,route_long_name,en,Yui Kambara Byoin Sen,,由比蒲原病院線
+agency,agency_name,en,Shizuoka City bus,8000020221007_2,
+trips,trip_headsign,ja-Hrkt,かんばらびょういんいき,,蒲原病院行き
+trips,trip_headsign,en,Kambara Byoin Iki(to Kambara Hospital),,蒲原病院行き
+trips,trip_headsign,ja-Hrkt,ゆいえきいき,,由比駅行き
+trips,trip_headsign,en,Yui Eki Iki(to Yui Sta.),,由比駅行き

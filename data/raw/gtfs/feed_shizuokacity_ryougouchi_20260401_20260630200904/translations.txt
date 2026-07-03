@@ -1,0 +1,90 @@
+﻿table_name,field_name,language,translation,record_id,field_value
+stops,stop_name,ja-Hrkt,ただぬましゃこまえ,,但沼車庫前
+stops,stop_name,en,Tadanuma Shako Mae,,但沼車庫前
+stops,stop_name,ja-Hrkt,ながまた,,長又
+stops,stop_name,en,Nagamata,,長又
+stops,stop_name,ja-Hrkt,あまごい,,雨乞
+stops,stop_name,en,Amagoi,,雨乞
+stops,stop_name,ja-Hrkt,きよじ,,清地
+stops,stop_name,en,Kiyoji,,清地
+stops,stop_name,ja-Hrkt,たかせ,,高瀬
+stops,stop_name,en,Tagase,,高瀬
+stops,stop_name,ja-Hrkt,わだしま,,和田島
+stops,stop_name,en,Wadashima,,和田島
+stops,stop_name,ja-Hrkt,わだしましゃこ,,和田島車庫
+stops,stop_name,en,Wadashima Shako,,和田島車庫
+stops,stop_name,ja-Hrkt,しげのしまひがし,,茂の島東
+stops,stop_name,en,Shigenoshima Higashi,,茂の島東
+stops,stop_name,ja-Hrkt,しげのしまひがし,,茂の島
+stops,stop_name,en,Shigenoshima,,茂の島
+stops,stop_name,ja-Hrkt,おおあみぐち,,大網口
+stops,stop_name,en,Oamiguchi,,大網口
+stops,stop_name,ja-Hrkt,ど,,土
+stops,stop_name,en,Do,,土
+stops,stop_name,ja-Hrkt,にしごうちしょうがっこう,,西河内小学校
+stops,stop_name,en,Nishigochi Shogakko,,西河内小学校
+stops,stop_name,ja-Hrkt,みやしろ,,宮城
+stops,stop_name,en,Miyashiro,,宮城
+stops,stop_name,ja-Hrkt,てらおじま,,寺尾島
+stops,stop_name,en,Teraojima,,寺尾島
+stops,stop_name,ja-Hrkt,にしざとおんせんまえ,,西里温泉前
+stops,stop_name,en,Nishizato Onsen,,西里温泉前
+stops,stop_name,ja-Hrkt,しもかたせ,,下片瀬
+stops,stop_name,en,Shimokatase,,下片瀬
+stops,stop_name,ja-Hrkt,かたせ,,片瀬
+stops,stop_name,en,Katase,,片瀬
+stops,stop_name,ja-Hrkt,はちまんおんせんまえ,,八幡温泉前
+stops,stop_name,en,Hachiman Onsen,,八幡温泉前
+stops,stop_name,ja-Hrkt,こうちきょくまえ,,河内局前
+stops,stop_name,en,Kochi Kyoku,,河内局前
+stops,stop_name,ja-Hrkt,こうち,,河内
+stops,stop_name,en,Kochi,,河内
+stops,stop_name,ja-Hrkt,おおしまいりぐち,,大島入口
+stops,stop_name,en,Oshima Iriguchi,,大島入口
+stops,stop_name,ja-Hrkt,いわした,,岩下
+stops,stop_name,en,Iwashita,,岩下
+stops,stop_name,ja-Hrkt,おおひらみなみ,,大平南
+stops,stop_name,en,Ohira Minami,,大平南
+stops,stop_name,ja-Hrkt,おおひらしも,,大平下
+stops,stop_name,en,Ohira Shimo,,大平下
+stops,stop_name,ja-Hrkt,おおひらなか,,大平中
+stops,stop_name,en,Ohira Naka,,大平中
+stops,stop_name,ja-Hrkt,おおひら,,大平
+stops,stop_name,en,Ohira,,大平
+stops,stop_name,ja-Hrkt,たかせかみ,,高瀬上
+stops,stop_name,en,Takase Kami,,高瀬上
+stops,stop_name,ja-Hrkt,しもだばし,,下田橋
+stops,stop_name,en,Shimodabashi,,下田橋
+stops,stop_name,ja-Hrkt,おがわ,,小川
+stops,stop_name,en,Ogawa,,小川
+stops,stop_name,ja-Hrkt,かまた,,桑又
+stops,stop_name,en,Kamata,,桑又
+stops,stop_name,ja-Hrkt,かばら,,桑原
+stops,stop_name,en,Kabara,,桑原
+stops,stop_name,ja-Hrkt,おろじま,,遠呂島
+stops,stop_name,en,Orojima,,遠呂島
+stops,stop_name,ja-Hrkt,おろじまかみ,,遠呂島上
+stops,stop_name,en,Orojima Kami,,遠呂島上
+stops,stop_name,ja-Hrkt,なかごうちがっこうまえ,,中河内学校前
+stops,stop_name,en,Nakagochi Gakko,,中河内学校前
+stops,stop_name,ja-Hrkt,きやまの,,木山野
+stops,stop_name,en,Kiyamano,,木山野
+stops,stop_name,ja-Hrkt,なかごうち,,中河内
+stops,stop_name,en,Nakagochi,,中河内
+stops,stop_name,ja-Hrkt,みやじま,,宮島
+stops,stop_name,en,Miyajima,,宮島
+stops,stop_name,ja-Hrkt,まつば,,松葉
+stops,stop_name,en,Matsuba,,松葉
+stops,stop_name,ja-Hrkt,いたいざわ,,板井沢
+stops,stop_name,en,Itaizawa,,板井沢
+routes,route_long_name,ja-Hrkt,りょうごうちせん,,両河内線
+routes,route_long_name,en,Ryogochi Sen,,両河内線
+agency,agency_name,en,Shizuoka City bus,8000020221007_4,
+trips,trip_headsign,ja-Hrkt,わだしましゃこいき,,和田島車庫行き
+trips,trip_headsign,en,Wadashima Shako Iki,,和田島車庫行き
+trips,trip_headsign,ja-Hrkt,ただぬましゃこいき,,但沼車庫行き
+trips,trip_headsign,en,Tadanuma Shako Iki,,但沼車庫行き
+trips,trip_headsign,ja-Hrkt,おおひらいき,,大平行き
+trips,trip_headsign,en,Ohira Iki,,大平行き
+trips,trip_headsign,ja-Hrkt,いたいざわいき,,板井沢行き
+trips,trip_headsign,en,Itaizawa Iki,,板井沢行き

@@ -1,0 +1,11 @@
+﻿route_id,service_id,trip_id,trip_headsign,direction_id,shape_id
+y8,y-tuethu,y8++y-tuethu+1,桜野阿僧コース,,SHP0001
+y7,y-tuethu,y7++y-tuethu+1,桜野阿僧コース,,SHP0002
+y7,y-tuethu,y7++y-tuethu+2,桜野阿僧コース,,SHP0002
+y6,y-tuethu,y6++y-tuethu+1,桜野阿僧コース,,SHP0003
+y5,y-tuethu,y5++y-tuethu+1,桜野阿僧コース,,SHP0004
+y4,y-monwedfri,y4++y-monwedfri+1,香木穴倉沢コース,,SHP0005
+y3,y-monwedfri,y3++y-monwedfri+1,香木穴倉沢コース,,SHP0006
+y3,y-monwedfri,y3++y-monwedfri+2,香木穴倉沢コース,,SHP0006
+y2,y-monwedfri,y2++y-monwedfri+1,香木穴倉沢コース,,SHP0007
+y1,y-monwedfri,y1++y-monwedfri+1,香木穴倉沢コース,,SHP0008

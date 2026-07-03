@@ -1,0 +1,4 @@
+﻿fare_id,price,currency_type,payment_method,transfers,agency_id
+t1_00,300,JPY,0,0,8000020221007_4
+o1_00,300,JPY,0,0,8000020221007_4
+z1_00,300,JPY,0,0,8000020221007_4

@@ -1,0 +1,2 @@
+﻿office_id,office_name,office_phone
+kokobus,NPO法人清流の里両河内,0543963900

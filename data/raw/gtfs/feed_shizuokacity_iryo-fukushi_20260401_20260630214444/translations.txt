@@ -1,0 +1,29 @@
+table_name,field_name,language,translation,record_id,field_value
+stops,stop_name,ja-Hrkt,しずおかえきまえ,,静岡駅前
+stops,stop_name,en,Shizuoka Eki(Shizuoka Sta.),,静岡駅前
+stops,stop_name,ja-Hrkt,しんしずおかみゆきちょう,,新静岡御幸町
+stops,stop_name,en,Shin-Shizuoka Miyukicho,,新静岡御幸町
+stops,stop_name,ja-Hrkt,しんしずおかてんまちょう,,新静岡伝馬町
+stops,stop_name,en,Shin-Shizuoka Miyukicho,,新静岡伝馬町
+stops,stop_name,ja-Hrkt,なかちょう,,中町
+stops,stop_name,en,Nakacho,,中町
+stops,stop_name,ja-Hrkt,あいせる21,,アイセル21
+stops,stop_name,en,Aicel21,,アイセル21
+stops,stop_name,ja-Hrkt,じょうとうほけんふくしえりあ,,城東保健福祉エリア
+stops,stop_name,en,Joto Hoken Fukushi Eria(Joto Health and Welfare Area),,城東保健福祉エリア
+stops,stop_name,ja-Hrkt,にしちよだ,,西千代田
+stops,stop_name,en,Nishi Chiyoda,,西千代田
+stops,stop_name,ja-Hrkt,やなぎしんでんにし,,柳新田西
+stops,stop_name,en,Yanagishinden Nishi,,柳新田西
+stops,stop_name,ja-Hrkt,やなぎしんでんきた,,柳新田北
+stops,stop_name,en,Yanagishinden Kita,,柳新田北
+stops,stop_name,ja-Hrkt,けんりつそうごうびょういん,,県立総合病院
+stops,stop_name,en,Kenritsu Sogo Byoin(Shizuoka General Hospital),,県立総合病院
+routes,route_long_name,ja-Hrkt,いりょう・ふくししせつろせん,,医療・福祉施設路線
+routes,route_long_name,en,Iryo-Fukushisisetsu rosen,,医療・福祉施設路線
+agency,agency_name,ja-Hrkt,しずおかしじしゅうんこうばす,8000020221007_7,
+agency,agency_name,en,Shizuoka City Bus,8000020221007_7,
+trips,trip_headsign,ja-Hrkt,けんりつそうごうびょういんまえいき,,県立総合病院前行き
+trips,trip_headsign,en,Kenritsu Sogo Byoin Iki(To Shizuoka General Hospital),,県立総合病院前行き
+trips,trip_headsign,ja-Hrkt,しずおかえきまえいき,,静岡駅前行き
+trips,trip_headsign,en,Shizuoka Eki Iki(To Shizuoka Sta.),,静岡駅前行き

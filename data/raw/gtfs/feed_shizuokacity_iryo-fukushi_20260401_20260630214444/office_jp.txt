@@ -1,0 +1,2 @@
+office_id,office_name,office_url,office_phone
+shizuokacity,静岡市都市局都市計画部交通政策課,https://www.city.shizuoka.lg.jp/s3792/s012591.html,054-221-1025
