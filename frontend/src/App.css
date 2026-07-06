@@ -169,7 +169,25 @@ body {
   border-radius: 3px;
   flex-shrink: 0;
 }
+.period-selector {
+  margin-bottom: 16px;
+}
 
+.period-selector label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.period-selector select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+  font-size: 14px;
+}
 .legend-stop {
   width: 13px;
   height: 13px;
@@ -207,4 +225,34 @@ body {
 
 .leaflet-control-layers {
   border-radius: 8px;
+}
+
+.period-selector {
+  margin-bottom: 16px;
+}
+
+.period-selector label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.period-selector select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+  font-size: 14px;
+}
+
+.period-selector select,
+.period-selector option {
+  color: #111827;
+  background-color: #ffffff;
+}
+
+.period-selector select {
+  appearance: auto;
 }

@@ -6,6 +6,16 @@ import "../App.css";
 
 const API_BASE = "http://localhost:8000/api";
 
+const ANALYSIS_PERIODS = {
+  monday_full_day: "Monday Full Day",
+  tuesday_full_day: "Tuesday Full Day",
+  wednesday_full_day: "Wednesday Full Day",
+  thursday_full_day: "Thursday Full Day",
+  friday_full_day: "Friday Full Day",
+  saturday_full_day: "Saturday Full Day",
+  sunday_full_day: "Sunday Full Day",
+};
+
 function getProp(properties, keys, fallback = "N/A") {
   for (const key of keys) {
     if (
@@ -116,15 +126,18 @@ function PTALMap() {
   const [ptalData, setPtalData] = useState(null);
   const [routesData, setRoutesData] = useState(null);
   const [stopsData, setStopsData] = useState(null);
+  const [selectedPeriod, setSelectedPeriod] = useState("monday_full_day");
   const [selectedType, setSelectedType] = useState(null);
   const [selectedFeature, setSelectedFeature] = useState(null);
 
   useEffect(() => {
-    fetch(`${API_BASE}/ptal/`)
+    fetch(`${API_BASE}/ptal/?period=${selectedPeriod}`)
       .then((res) => res.json())
       .then(setPtalData)
       .catch((err) => console.error("PTAL API error:", err));
+  }, [selectedPeriod]);
 
+  useEffect(() => {
     fetch(`${API_BASE}/routes/`)
       .then((res) => res.json())
       .then(setRoutesData)
@@ -178,24 +191,16 @@ function PTALMap() {
   const onEachPTALFeature = (feature, layer) => {
     layer.on({
       click: () => selectFeature("ptal", feature, layer),
-      mouseover: () => {
-        layer.setStyle({ weight: 1.1, opacity: 0.8 });
-      },
-      mouseout: () => {
-        layer.setStyle(ptalStyle(feature));
-      },
+      mouseover: () => layer.setStyle({ weight: 1.1, opacity: 0.8 }),
+      mouseout: () => layer.setStyle(ptalStyle(feature)),
     });
   };
 
   const onEachRouteFeature = (feature, layer) => {
     layer.on({
       click: () => selectFeature("route", feature, layer),
-      mouseover: () => {
-        layer.setStyle({ weight: 5, opacity: 1 });
-      },
-      mouseout: () => {
-        layer.setStyle(routeStyle(feature));
-      },
+      mouseover: () => layer.setStyle({ weight: 5, opacity: 1 }),
+      mouseout: () => layer.setStyle(routeStyle(feature)),
     });
   };
 
@@ -221,6 +226,24 @@ function PTALMap() {
       <aside className="sidebar">
         <h1 className="dashboard-title">Shizuoka PTAL Dashboard</h1>
 
+        <div className="period-selector">
+          <label>Analysis Period</label>
+          <select
+            value={selectedPeriod}
+            onChange={(e) => {
+              setSelectedPeriod(e.target.value);
+              setSelectedType(null);
+              setSelectedFeature(null);
+            }}
+          >
+            {Object.entries(ANALYSIS_PERIODS).map(([value, label]) => (
+              <option key={value} value={value}>
+                {label}
+              </option>
+            ))}
+          </select>
+        </div>
+
         <section className="panel-section">
           <h3>Selected Feature</h3>
 
@@ -239,13 +262,17 @@ function PTALMap() {
           <h3>Calculation Parameters</h3>
           <div className="info-card left-text">
             <p>
-              <strong>Analysis Window:</strong> Configurable
+              <strong>Analysis Period:</strong>{" "}
+              {ANALYSIS_PERIODS[selectedPeriod]}
             </p>
             <p>
-              <strong>Walk Speed:</strong> 4.8 km/h
+              <strong>Analysis Time:</strong> 00:00–24:00
             </p>
             <p>
-              <strong>Bus Walk Access Threshold:</strong> 8 minutes
+              <strong>Walk Speed:</strong> 5.0 km/h
+            </p>
+            <p>
+              <strong>Bus Walk Access Threshold:</strong> 960 m
             </p>
             <p>
               <strong>Rail Access:</strong> Not included in prototype
@@ -260,12 +287,12 @@ function PTALMap() {
           <h3>Transport Information</h3>
           <div className="info-card left-text">
             <p>
-              This dashboard displays PTAL grid accessibility, bus routes, and
-              bus stops from the processed Shizuoka City community bus GTFS data.
+              This dashboard displays full-day PTAL accessibility by day of
+              week.
             </p>
             <p>
-              Route frequency and nearby stop summaries can be added here after
-              connecting the calculated service-frequency output to the frontend.
+              Select a day above to view the pre-calculated PTAL result for
+              that day.
             </p>
           </div>
         </section>
@@ -290,7 +317,7 @@ function PTALMap() {
 
           {ptalData && (
             <GeoJSON
-              key="ptal-layer"
+              key={`ptal-layer-${selectedPeriod}`}
               data={ptalData}
               pane="ptalPane"
               style={ptalStyle}
@@ -326,28 +353,75 @@ function PTALMap() {
 function PTALCard({ feature }) {
   const p = feature.properties || {};
 
+  const band = getProp(p, ["ptal_band", "ptal", "band"], null);
+  const ai = getProp(p, ["accessibility_index", "ai", "ptal_score"], null);
+  const gridId = getProp(p, ["grid_id", "id"], null);
+  const stopCount = getProp(p, ["reachable_stop_count"], null);
+  const maxTrips = getProp(p, ["max_trips_per_hour"], null);
+
   return (
     <div className="result-card">
       <h2>PTAL Grid</h2>
 
-      <div className="score-circle">
-        {getProp(p, ["ptal_band", "ptal", "band"])}
-      </div>
+      {band && <div className="score-circle">{band}</div>}
 
       <div className="card-details">
-        <p>
-          <strong>Grid ID:</strong> {getProp(p, ["grid_id", "id"])}
-        </p>
-        <p>
-          <strong>Accessibility Index:</strong>{" "}
-          {getProp(p, ["accessibility_index", "ai", "ptal_score"])}
-        </p>
-        <p>
-          <strong>PTAL Band:</strong> {getProp(p, ["ptal_band", "ptal", "band"])}
-        </p>
+        {gridId && (
+          <p>
+            <strong>Grid ID:</strong> {gridId}
+          </p>
+        )}
+
+        {ai && (
+          <p>
+            <strong>Accessibility Index:</strong> {ai}
+          </p>
+        )}
+
+        {band && (
+          <p>
+            <strong>PTAL Band:</strong> {band}
+          </p>
+        )}
+
+        {stopCount !== null && (
+          <p>
+            <strong>Reachable Stops:</strong> {stopCount}
+          </p>
+        )}
+
+        {maxTrips !== null && (
+          <p>
+            <strong>Max Trips/Hour:</strong> {maxTrips}
+          </p>
+        )}
       </div>
     </div>
   );
+}
+
+function cleanRouteName(p) {
+  return (
+    p.route_long_name ||
+    p.route_short_name ||
+    p.route_name ||
+    p.name ||
+    p.route_id ||
+    "Bus Route"
+  );
+}
+
+function cleanStopName(p) {
+  return p.stop_name || p.name || "Bus Stop";
+}
+
+function formatNumber(value) {
+  if (value === undefined || value === null || value === "" || value === "N/A") {
+    return null;
+  }
+
+  const num = Number(value);
+  return Number.isNaN(num) ? null : num.toFixed(6);
 }
 
 function StopCard({ feature }) {
@@ -357,25 +431,29 @@ function StopCard({ feature }) {
   const lon = getProp(p, ["stop_lon", "lon", "longitude"], coords[0]);
   const lat = getProp(p, ["stop_lat", "lat", "latitude"], coords[1]);
 
+  const formattedLat = formatNumber(lat);
+  const formattedLon = formatNumber(lon);
+
   return (
     <div className="result-card">
       <h2>Bus Stop</h2>
 
       <div className="card-details">
         <p>
-          <strong>Stop Name:</strong> {getProp(p, ["stop_name", "name"])}
+          <strong>Stop Name:</strong> {cleanStopName(p)}
         </p>
-        <p>
-          <strong>Stop ID:</strong> {getProp(p, ["stop_id", "id"])}
-        </p>
-        <p>
-          <strong>Latitude:</strong>{" "}
-          {lat !== "N/A" ? Number(lat).toFixed(6) : "N/A"}
-        </p>
-        <p>
-          <strong>Longitude:</strong>{" "}
-          {lon !== "N/A" ? Number(lon).toFixed(6) : "N/A"}
-        </p>
+
+        {formattedLat && (
+          <p>
+            <strong>Latitude:</strong> {formattedLat}
+          </p>
+        )}
+
+        {formattedLon && (
+          <p>
+            <strong>Longitude:</strong> {formattedLon}
+          </p>
+        )}
       </div>
     </div>
   );
@@ -390,16 +468,14 @@ function RouteCard({ feature }) {
 
       <div className="card-details">
         <p>
-          <strong>Route Name:</strong>{" "}
-          {getProp(p, ["route_long_name", "route_short_name", "name"])}
+          <strong>Route:</strong> {cleanRouteName(p)}
         </p>
-        <p>
-          <strong>Route ID:</strong> {getProp(p, ["route_id", "id"])}
-        </p>
-        <p>
-          <strong>Agency:</strong>{" "}
-          {getProp(p, ["agency_name", "agency", "operator"], "N/A")}
-        </p>
+
+        {p.agency_name && (
+          <p>
+            <strong>Agency:</strong> {p.agency_name}
+          </p>
+        )}
       </div>
     </div>
   );

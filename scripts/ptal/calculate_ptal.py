@@ -36,7 +36,7 @@ import pandas as pd
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 DEFAULT_ACCESSIBILITY = PROJECT_ROOT / "data" / "processed" / "ptal" / "grid_accessibility.csv"
-DEFAULT_GRID = PROJECT_ROOT / "data" / "processed" / "ptal" / "analysis_grid.geojson"
+DEFAULT_GRID = PROJECT_ROOT / "data" / "processed" / "ptal" / "ptal_grid_cells.geojson"
 DEFAULT_RESULTS_CSV = PROJECT_ROOT / "data" / "processed" / "ptal" / "ptal_results.csv"
 DEFAULT_RESULTS_GEOJSON = PROJECT_ROOT / "data" / "processed" / "ptal" / "ptal_grid.geojson"
 
@@ -129,6 +129,21 @@ def main() -> int:
 
         if grid.crs is None:
             grid = grid.set_crs("EPSG:4326")
+
+        # Remove old PTAL result columns from polygon grid before merging new results
+        old_result_columns = [
+            "accessibility_index",
+            "reachable_stop_count",
+            "min_walking_time_min",
+            "avg_walking_time_min",
+            "max_trips_per_hour",
+            "ptal_band",
+        ]
+
+        grid = grid.drop(
+            columns=[col for col in old_result_columns if col in grid.columns],
+            errors="ignore",
+        )
 
         grid["grid_id"] = grid["grid_id"].astype(str)
         grouped["grid_id"] = grouped["grid_id"].astype(str)
