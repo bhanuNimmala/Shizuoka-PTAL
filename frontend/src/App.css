@@ -1,80 +1,114 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
 }
 
 .dashboard {
   display: flex;
-  height: 100vh;
-  width: 100vw;
+  width: 100%;
+  height: 100dvh;
   overflow: hidden;
+  background: #ffffff;
 }
 
 .sidebar {
-  width: 420px;
-  background: #ffffff;
-  border-right: 1px solid #dddddd;
+  width: 400px;
+  min-width: 400px;
+  height: 100dvh;
   overflow-y: auto;
+  overflow-x: hidden;
   padding: 16px;
-  z-index: 1000;
+  background: #ffffff;
+  border-right: 1px solid #e5e7eb;
 }
 
 .map-area {
   flex: 1;
-  height: 100vh;
+  height: 100dvh;
+  min-width: 0;
+  overflow: hidden;
 }
 
-.search-box {
-  margin-bottom: 16px;
-}
-
-.search-box input {
+.leaflet-container {
   width: 100%;
-  padding: 12px 14px;
-  border: 1px solid #cccccc;
-  border-radius: 6px;
-  font-size: 15px;
+  height: 100%;
+}
+
+.dashboard-title {
+  margin: 0 0 16px 0;
+  font-size: 22px;
+  color: #111827;
+  text-align: center;
 }
 
 .panel-section {
-  border: 1px solid #eeeeee;
-  border-radius: 6px;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
   padding: 14px;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
   background: #fafafa;
 }
 
 .panel-section h3 {
   margin: 0 0 12px 0;
+  text-align: center;
   font-size: 16px;
   color: #111827;
 }
 
+.empty-card,
+.info-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 14px;
+  color: #374151;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.left-text {
+  text-align: left;
+}
+
+.info-card p {
+  margin: 8px 0;
+}
+
 .result-card {
   background: #ffffff;
-  border-radius: 14px;
-  padding: 20px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  text-align: center;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
 }
 
 .result-card h2 {
-  margin-top: 0;
+  text-align: center;
+  margin: 0 0 12px 0;
   color: #1e3a8a;
+  font-size: 20px;
 }
 
 .score-circle {
-  width: 90px;
-  height: 90px;
-  margin: 16px auto;
+  width: 84px;
+  height: 84px;
+  margin: 12px auto;
   border-radius: 50%;
   background: #bf8f8f;
   color: white;
-  font-size: 34px;
+  font-size: 32px;
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -83,57 +117,37 @@ body {
 
 .card-details {
   background: #f1f5f9;
-  padding: 14px;
+  padding: 12px;
   border-radius: 10px;
-  margin-top: 14px;
-  text-align: left;
+  margin-top: 12px;
+  overflow-wrap: break-word;
 }
 
 .card-details p {
   margin: 8px 0;
   font-size: 14px;
+  color: #374151;
 }
 
-.card-details h4 {
-  margin: 0 0 10px 0;
-  color: #1e3a8a;
-  text-align: center;
-}
-
-.empty-card,
-.info-card {
-  background: #ffffff;
-  border-radius: 10px;
-  padding: 14px;
-  color: #555555;
-  font-size: 14px;
-}
-
-.leaflet-pane.leaflet-ptalPane-pane {
-  pointer-events: auto;
-}
-
-.leaflet-pane.leaflet-routePane-pane {
-  pointer-events: auto;
-}
-
-.leaflet-pane.leaflet-stopPane-pane {
-  pointer-events: auto;
+.card-details strong {
+  color: #111827;
 }
 
 .legend {
   background: white;
-  padding: 14px 16px;
+  padding: 12px 14px;
   border-radius: 10px;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.22);
   font-size: 13px;
-  min-width: 180px;
+  min-width: 170px;
+  max-height: 70vh;
+  overflow-y: auto;
 }
 
 .legend-title {
   font-weight: 700;
   font-size: 15px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .legend-subtitle {
@@ -144,8 +158,8 @@ body {
 .legend-item {
   display: flex;
   align-items: center;
-  gap: 9px;
-  margin-bottom: 7px;
+  gap: 8px;
+  margin-bottom: 6px;
 }
 
 .legend-color {
@@ -153,6 +167,7 @@ body {
   height: 16px;
   border: 1px solid #999;
   border-radius: 3px;
+  flex-shrink: 0;
 }
 
 .legend-stop {
@@ -162,6 +177,7 @@ body {
   border: 2px solid white;
   outline: 1px solid #999;
   border-radius: 50%;
+  flex-shrink: 0;
 }
 
 .legend-route {
@@ -169,6 +185,7 @@ body {
   height: 4px;
   background: #2563eb;
   border-radius: 2px;
+  flex-shrink: 0;
 }
 
 .legend-grid {
@@ -179,14 +196,15 @@ body {
     linear-gradient(to right, #aaa 1px, transparent 1px),
     linear-gradient(to bottom, #aaa 1px, transparent 1px);
   background-size: 8px 8px;
-}
-
-.legend-text {
-  color: #374151;
+  flex-shrink: 0;
 }
 
 .legend hr {
   border: none;
   border-top: 1px solid #e5e7eb;
-  margin: 12px 0;
+  margin: 10px 0;
+}
+
+.leaflet-control-layers {
+  border-radius: 8px;
 }
