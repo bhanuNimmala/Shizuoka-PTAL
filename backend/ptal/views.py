@@ -81,3 +81,20 @@ def routes_geojson(request):
         )
 
     return JsonResponse(data, safe=False)
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+def population_geojson(request):
+    file_path = (
+        BASE_DIR
+        / ".."
+        / "data"
+        / "processed"
+        / "population"
+        / "population.geojson"
+    ).resolve()
+
+    with open(file_path, encoding="utf-8") as f:
+        data = json.load(f)
+
+    return JsonResponse(data, safe=False)
