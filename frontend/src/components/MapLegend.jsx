@@ -2,10 +2,15 @@ import { useEffect } from "react";
 import { useMap } from "react-leaflet";
 import L from "leaflet";
 
-function MapLegend({ showPopulation }) {
+function MapLegend({ showPTAL, showPopulation }) {
   const map = useMap();
 
   useEffect(() => {
+    // Hide legend if no thematic layer is visible
+    if (!showPTAL && !showPopulation) {
+      return;
+    }
+
     const legend = L.control({ position: "bottomright" });
 
     legend.onAdd = () => {
@@ -36,63 +41,60 @@ function MapLegend({ showPopulation }) {
       div.innerHTML = `
         <div class="legend-title">Legend</div>
 
-        <div class="legend-subtitle">PTAL Band</div>
-        ${ptalGrades
-          .map(
-            ([label, color]) => `
+        ${
+          showPTAL
+            ? `
+          <div class="legend-subtitle">PTAL</div>
+
+          ${ptalGrades
+            .map(
+              ([label, color]) => `
               <div class="legend-item">
                 <span class="legend-color" style="background:${color}"></span>
                 <span>${label}</span>
               </div>
             `
-          )
-          .join("")}
+            )
+            .join("")}
+        `
+            : ""
+        }
 
         ${
           showPopulation
             ? `
-              <hr />
-              <div class="legend-subtitle">Population</div>
-              ${populationGrades
-                .map(
-                  ([label, color]) => `
-                    <div class="legend-item">
-                      <span class="legend-color" style="background:${color}"></span>
-                      <span>${label}</span>
-                    </div>
-                  `
-                )
-                .join("")}
+          ${
+            showPTAL
+              ? "<hr />"
+              : ""
+          }
+
+          <div class="legend-subtitle">Population</div>
+
+          ${populationGrades
+            .map(
+              ([label, color]) => `
+              <div class="legend-item">
+                <span class="legend-color" style="background:${color}"></span>
+                <span>${label}</span>
+              </div>
             `
+            )
+            .join("")}
+        `
             : ""
         }
-
-        <hr />
-
-        <div class="legend-subtitle">Map Layers</div>
-
-        <div class="legend-item">
-          <span class="legend-stop"></span>
-          <span>Bus Stops</span>
-        </div>
-
-        <div class="legend-item">
-          <span class="legend-route"></span>
-          <span>Bus Routes</span>
-        </div>
-
-        <div class="legend-item">
-          <span class="legend-grid"></span>
-          <span>PTAL Grid</span>
-        </div>
       `;
 
       return div;
     };
 
     legend.addTo(map);
-    return () => legend.remove();
-  }, [map, showPopulation]);
+
+    return () => {
+      legend.remove();
+    };
+  }, [map, showPTAL, showPopulation]);
 
   return null;
 }

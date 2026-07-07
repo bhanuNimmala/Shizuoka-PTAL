@@ -1,7 +1,12 @@
 import PTALMap from "./components/PTALMap";
+import "./App.css";
 
 function App() {
-  return <PTALMap />;
+  return (
+    <div className="app-shell">
+      <PTALMap />
+    </div>
+  );
 }
 
 export default App;

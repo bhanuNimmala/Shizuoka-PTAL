@@ -4,10 +4,10 @@ function PopulationCard({ feature }) {
 
   return (
     <div className="result-card">
-      <h2>Population Mesh</h2>
+      <h2>Population Details</h2>
 
       <div className="card-details">
-        <p><strong>Mesh Code:</strong> {p.KEY_CODE}</p>
+        {/* <p><strong>Mesh Code:</strong> {p.KEY_CODE}</p> */}
         <p><strong>Population:</strong> {Number(p.population || 0).toLocaleString()}</p>
         <p><strong>Density:</strong> {density.toFixed(2)} persons/km²</p>
       </div>
