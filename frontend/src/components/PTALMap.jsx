@@ -61,6 +61,10 @@ function PTALMap() {
       <DashboardToolbar
         selectedPeriod={selectedPeriod}
         setSelectedPeriod={setSelectedPeriod}
+        clearSelection={() => {
+          setSelectedType(null);
+          setSelectedFeature(null);
+        }}
         showPTAL={showPTAL}
         setShowPTAL={setShowPTAL}
         showPopulation={showPopulation}

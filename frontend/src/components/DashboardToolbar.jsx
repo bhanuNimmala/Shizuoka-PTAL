@@ -1,6 +1,7 @@
 function DashboardToolbar({
   selectedPeriod,
   setSelectedPeriod,
+  clearSelection,
   showPTAL,
   setShowPTAL,
   showPopulation,
@@ -18,7 +19,10 @@ function DashboardToolbar({
         <select
           className="toolbar-select"
           value={selectedPeriod}
-          onChange={(e) => setSelectedPeriod(e.target.value)}
+          onChange={(e) => {
+            setSelectedPeriod(e.target.value);
+            clearSelection();
+          }}
         >
           <option value="monday_full_day">Monday</option>
           <option value="tuesday_full_day">Tuesday</option>
