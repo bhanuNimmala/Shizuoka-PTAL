@@ -336,16 +336,19 @@ body {
 
 .modal-card h2 {
   margin-top: 0;
+  color: #111827;
 }
 
 .modal-card h3 {
   margin-top: 18px;
+  color: #1f2937;
 }
 
 .modal-card p,
 .modal-card li {
   font-size: 14px;
   line-height: 1.6;
+  color: #374151;
 }
 
 .modal-close {
