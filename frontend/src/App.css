@@ -256,3 +256,22 @@ body {
 .period-selector select {
   appearance: auto;
 }
+
+.layer-toggle-panel {
+  margin-bottom: 14px;
+  padding: 14px;
+  border: 1px solid #eeeeee;
+  border-radius: 8px;
+  background: #fafafa;
+}
+
+.layer-toggle-panel label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #111827;
+}
+
+.layer-toggle-panel input {
+  margin-right: 8px;
+}
