@@ -1,27 +1,17 @@
 import { MapContainer, TileLayer, GeoJSON, Pane } from "react-leaflet";
-import { useEffect, useState } from "react";
-import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import "../App.css";
 
-import {
-  API_BASE,
-  getProp,
-  getPTALColor,
-  getPopulationColor,
-} from "./utils/mapUtils";
-
+import { useState } from "react";
+import useDashboardData from "./hooks/useDashboardData";
 import Sidebar from "./Sidebar";
 import MapLegend from "./MapLegend";
-
+import useMapLayers from "./hooks/useMapLayers";
 
 function PTALMap() {
-  const [ptalData, setPtalData] = useState(null);
-  const [routesData, setRoutesData] = useState(null);
-  const [stopsData, setStopsData] = useState(null);
-  const [population, setPopulation] = useState(null);
 
   const [selectedPeriod, setSelectedPeriod] = useState("monday_full_day");
+  const { ptalData, routesData, stopsData, population } = useDashboardData(selectedPeriod);
   const [selectedType, setSelectedType] = useState(null);
   const [selectedFeature, setSelectedFeature] = useState(null);
 
@@ -29,84 +19,6 @@ function PTALMap() {
   const [showRoutes, setShowRoutes] = useState(true);
   const [showStops, setShowStops] = useState(true);
   const [showPopulation, setShowPopulation] = useState(false);
-
-  useEffect(() => {
-    fetch(`${API_BASE}/ptal/?period=${selectedPeriod}`)
-      .then((res) => res.json())
-      .then(setPtalData)
-      .catch((err) => console.error("PTAL API error:", err));
-  }, [selectedPeriod]);
-
-  useEffect(() => {
-    fetch(`${API_BASE}/routes/`)
-      .then((res) => res.json())
-      .then(setRoutesData)
-      .catch((err) => console.error("Routes API error:", err));
-
-    fetch(`${API_BASE}/stops/`)
-      .then((res) => res.json())
-      .then(setStopsData)
-      .catch((err) => console.error("Stops API error:", err));
-
-    fetch(`${API_BASE}/population/`)
-      .then((res) => res.json())
-      .then(setPopulation)
-      .catch((err) => console.error("Population API error:", err));
-  }, []);
-
-  const ptalStyle = (feature) => {
-  const p = feature.properties || {};
-  const band = getProp(p, ["ptal_band", "ptal", "band"], "0");
-
-  // Special styling for PTAL Band 0
-  if (String(band).toLowerCase() === "0") {
-    return {
-      fillColor: "#d3cdcd",      // Your chosen grey
-      color: "#b8b8b8",          // Slightly lighter border
-      weight: 0.2,
-      opacity: 0.5,
-      fillOpacity: showPopulation ? 0.15 : 0.30,
-    };
-  }
-
-  // All other PTAL bands
-  return {
-    fillColor: getPTALColor(band),
-    color: "#666666",
-    weight: 0.2,
-    opacity: 0.6,
-    fillOpacity: showPopulation ? 0.28 : 0.42,
-  };
-};
-
-  const populationStyle = (feature) => {
-    const pop = Number(feature.properties.population || 0);
-
-    return {
-      fillColor: getPopulationColor(pop),
-      color: "#777",
-      weight: 0.25,
-      opacity: 0.35,
-      fillOpacity: 0.38,
-    };
-  };
-
-  const routeStyle = () => ({
-    color: "#2563eb",
-    weight: 3,
-    opacity: 0.95,
-  });
-
-  const stopPointToLayer = (feature, latlng) => {
-    return L.circleMarker(latlng, {
-      radius: 6,
-      color: "#ffffff",
-      weight: 1.5,
-      fillColor: "#dc2626",
-      fillOpacity: 1,
-      opacity: 1,
-    });
-  };
 
   const selectFeature = (type, feature, layer) => {
     setSelectedType(type);
@@ -117,72 +29,39 @@ function PTALMap() {
     }
   };
 
-  const onEachPTALFeature = (feature, layer) => {
-    layer.on({
-      click: () => selectFeature("ptal", feature, layer),
-      mouseover: () => layer.setStyle({ weight: 1.1, opacity: 0.8 }),
-      mouseout: () => layer.setStyle(ptalStyle(feature)),
-    });
-  };
-
-  const onEachPopulation = (feature, layer) => {
-    layer.on({
-      click: () => selectFeature("population", feature, layer),
-      mouseover: () => layer.setStyle({ weight: 1.1, opacity: 0.8 }),
-      mouseout: () => layer.setStyle(populationStyle(feature)),
-    });
-  };
-
-  const onEachRouteFeature = (feature, layer) => {
-    layer.on({
-      click: () => selectFeature("route", feature, layer),
-      mouseover: () => layer.setStyle({ weight: 5, opacity: 1 }),
-      mouseout: () => layer.setStyle(routeStyle(feature)),
-    });
-  };
-
-  const onEachStopFeature = (feature, layer) => {
-    const p = feature.properties || {};
-    const stopName = getProp(p, ["stop_name", "name"], "Bus Stop");
-
-    layer.on({
-      click: (e) => {
-        L.DomEvent.stopPropagation(e);
-        selectFeature("stop", feature, layer);
-      },
-    });
-
-    layer.bindTooltip(stopName, {
-      direction: "top",
-      offset: [0, -8],
-    });
-  };
+  const {
+    ptalStyle,
+    populationStyle,
+    routeStyle,
+    stopPointToLayer,
+    onEachPTALFeature,
+    onEachPopulation,
+    onEachRouteFeature,
+    onEachStopFeature,
+  } = useMapLayers({
+    showPopulation,
+    selectFeature,
+  });
 
   return (
     <div className="dashboard">
       <Sidebar
-          selectedPeriod={selectedPeriod}
-          setSelectedPeriod={setSelectedPeriod}
-
-          selectedType={selectedType}
-          selectedFeature={selectedFeature}
-
-          showPTAL={showPTAL}
-          setShowPTAL={setShowPTAL}
-
-          showPopulation={showPopulation}
-          setShowPopulation={setShowPopulation}
-
-          showRoutes={showRoutes}
-          setShowRoutes={setShowRoutes}
-
-          showStops={showStops}
-          setShowStops={setShowStops}
-
-          clearSelection={() => {
-              setSelectedType(null);
-              setSelectedFeature(null);
-          }}
+        selectedPeriod={selectedPeriod}
+        setSelectedPeriod={setSelectedPeriod}
+        selectedType={selectedType}
+        selectedFeature={selectedFeature}
+        showPTAL={showPTAL}
+        setShowPTAL={setShowPTAL}
+        showPopulation={showPopulation}
+        setShowPopulation={setShowPopulation}
+        showRoutes={showRoutes}
+        setShowRoutes={setShowRoutes}
+        showStops={showStops}
+        setShowStops={setShowStops}
+        clearSelection={() => {
+          setSelectedType(null);
+          setSelectedFeature(null);
+        }}
       />
 
       <main className="map-area">
