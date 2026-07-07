@@ -165,6 +165,8 @@ function PTALMap() {
   const [showStops, setShowStops] = useState(true);
   const [showPopulation, setShowPopulation] = useState(false);
 
+  const [showPTALInfo, setShowPTALInfo] = useState(false);
+
   useEffect(() => {
     fetch(`${API_BASE}/ptal/?period=${selectedPeriod}`)
       .then((res) => res.json())
@@ -368,6 +370,16 @@ function PTALMap() {
           {selectedType === "stop" && <StopCard feature={selectedFeature} />}
           {selectedType === "route" && <RouteCard feature={selectedFeature} />}
         </section>
+          
+          <div className="about-ptal-card">
+            <h3>About PTAL</h3>
+            <p>
+              Learn how the PTAL score is calculated and what the values mean.
+            </p>
+            <button onClick={() => setShowPTALInfo(true)}>
+              View Methodology
+            </button>
+          </div>
 
         <section className="panel-section">
           <h3>Calculation Parameters</h3>
@@ -446,6 +458,58 @@ function PTALMap() {
               pointToLayer={stopPointToLayer}
               onEachFeature={onEachStopFeature}
             />
+          )}
+
+          {showPTALInfo && (
+            <div className="modal-overlay" onClick={() => setShowPTALInfo(false)}>
+              <div className="modal-card" onClick={(e) => e.stopPropagation()}>
+                <button className="modal-close" onClick={() => setShowPTALInfo(false)}>
+                  ×
+                </button>
+
+                <h2>About PTAL</h2>
+
+                <p>
+                  PTAL stands for <strong>Public Transport Accessibility Level</strong>.
+                  It is used to estimate how accessible an area is by public transport.
+                </p>
+
+                <h3>How this prototype calculates PTAL</h3>
+
+                <p>
+                  This Shizuoka prototype uses a simplified PTAL-style method based on
+                  community bus GTFS data, walking access, and service frequency.
+                </p>
+
+                <ol>
+                  <li>Generate a 500 m analysis grid for Shizuoka City.</li>
+                  <li>Calculate which bus stops are reachable by walking.</li>
+                  <li>Calculate service frequency for each day of the week.</li>
+                  <li>Estimate average waiting time from service frequency.</li>
+                  <li>
+                    Calculate Total Access Time:
+                    <br />
+                    <strong>Walking Time + Average Waiting Time</strong>
+                  </li>
+                  <li>
+                    Convert access time into Equivalent Doorstep Frequency:
+                    <br />
+                    <strong>EDF = 30 / Total Access Time</strong>
+                  </li>
+                  <li>
+                    Sum EDF values for each grid cell to produce the Accessibility Index.
+                  </li>
+                  <li>Classify the Accessibility Index into PTAL bands.</li>
+                </ol>
+
+                <h3>Prototype Scope</h3>
+
+                <p>
+                  This prototype uses Shizuoka City community bus GTFS data only.
+                  Railway and Shinkansen services are not included.
+                </p>
+              </div>
+            </div>
           )}
         </MapContainer>
       </main>
