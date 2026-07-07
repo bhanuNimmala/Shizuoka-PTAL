@@ -3,6 +3,8 @@ import PopulationCard from "./cards/PopulationCard";
 import StopCard from "./cards/StopCard";
 import RouteCard from "./cards/RouteCard";
 import { ANALYSIS_PERIODS } from "./utils/mapUtils";
+import { useState } from "react";
+import AboutPTALModal from "./AboutPTALModal";
 
 function Sidebar({
   selectedPeriod,
@@ -19,6 +21,7 @@ function Sidebar({
   setShowStops,
   clearSelection,
 }) {
+  const [showPTALInfo, setShowPTALInfo] = useState(false);
   return (
     <aside className="sidebar">
       <h1 className="dashboard-title">
@@ -81,6 +84,16 @@ function Sidebar({
           />
           Bus Stops
         </label>
+      </div>
+
+      <div className="about-ptal-card">
+        <h3>About PTAL</h3>
+        <p>
+          Learn how the PTAL score is calculated and what the values mean.
+        </p>
+        <button onClick={() => setShowPTALInfo(true)}>
+          View Methodology
+        </button>
       </div>
 
       <section className="panel-section">
@@ -161,6 +174,9 @@ function Sidebar({
           </p>
         </div>
       </section>
+      {showPTALInfo && (
+        <AboutPTALModal onClose={() => setShowPTALInfo(false)} />
+      )}  
     </aside>
   );
 }
