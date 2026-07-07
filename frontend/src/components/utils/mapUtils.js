@@ -24,21 +24,6 @@ export function getProp(properties, keys, fallback = "N/A") {
   return fallback;
 }
 
-export function getPTALColor(band) {
-  switch (String(band).toLowerCase()) {
-    case "0": return "#d3cdcd";
-    case "1a": return "#d9f0a3";
-    case "1b": return "#addd8e";
-    case "2": return "#78c679";
-    case "3": return "#41ab5d";
-    case "4": return "#238443";
-    case "5": return "#006837";
-    case "6a": return "#fdae61";
-    case "6b": return "#d7191c";
-    default: return "#cccccc";
-  }
-}
-
 export function getPopulationColor(population) {
   if (population > 1000) return "#800026";
   if (population > 500) return "#BD0026";
@@ -71,4 +56,29 @@ export function formatNumber(value) {
 
   const num = Number(value);
   return Number.isNaN(num) ? null : num.toFixed(6);
+}
+
+export function getPTALColor(band) {
+  switch (band) {
+    case "0":
+      return "#d3cdcd";
+    case "1a":
+      return "#d9f0a3";
+    case "1b":
+      return "#addd8e";
+    case "2":
+      return "#78c679";
+    case "3":
+      return "#41ab5d";
+    case "4":
+      return "#238443";
+    case "5":
+      return "#006837";
+    case "6a":
+      return "#fdae61";
+    case "6b":
+      return "#d7191c";
+    default:
+      return "#9ca3af";
+  }
 }

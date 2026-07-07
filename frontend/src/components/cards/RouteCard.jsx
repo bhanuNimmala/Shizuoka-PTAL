@@ -8,7 +8,7 @@ function RouteCard({ feature }) {
       <h2>Bus Route</h2>
 
       <div className="card-details">
-        <p><strong>Route:</strong> {cleanRouteName(p)}</p>
+        <p><strong>Route Name:</strong> {cleanRouteName(p)}</p>
         {p.agency_name && <p><strong>Agency:</strong> {p.agency_name}</p>}
       </div>
     </div>

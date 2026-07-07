@@ -38,18 +38,18 @@ function useMapLayers({ showPopulation, selectFeature }) {
   };
 
   const routeStyle = () => ({
-    color: "#2563eb",
+    color: "#2F6B4F",
     weight: 3,
-    opacity: 0.95,
+    opacity: 0.85,
   });
 
   const stopPointToLayer = (feature, latlng) => {
     return L.circleMarker(latlng, {
-      radius: 6,
-      color: "#ffffff",
+      radius: 5,
+      color: "#000000",
       weight: 1.5,
-      fillColor: "#dc2626",
-      fillOpacity: 1,
+      fillColor: "#e9ec0d",
+      fillOpacity: 0.9,
       opacity: 1,
     });
   };
