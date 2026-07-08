@@ -1,5 +1,6 @@
 import { getProp } from "../utils/mapUtils";
 import { getPTALColor } from "../utils/mapUtils";
+import { getPTALTextColor } from "../utils/mapUtils";
 
 function PTALCard({ feature }) {
   const p = feature.properties || {};
@@ -12,12 +13,12 @@ function PTALCard({ feature }) {
   return (
     <div className="result-card">
       <h2>PTAL Score</h2>
-      <div className="score-circle" style={{
-        background: getPTALColor(band),
-        color: band === "0" || band === "1a" || band === "1b"
-          ? "#1f2937"
-          : "#ffffff",
-       }}
+      <div
+        className="score-circle"
+        style={{
+          background: getPTALColor(band),
+          color: getPTALTextColor(band),
+        }}
       >
         {band}
       </div>

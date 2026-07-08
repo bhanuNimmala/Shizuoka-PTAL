@@ -58,27 +58,22 @@ export function formatNumber(value) {
   return Number.isNaN(num) ? null : num.toFixed(6);
 }
 
+export const PTAL_STYLES = {
+  "0":  { bg: "#F2F2F2", text: "#1F2937" },
+  "1a": { bg: "#31367F", text: "#FFFFFF" },
+  "1b": { bg: "#7678BE", text: "#FFFFFF" },
+  "2":  { bg: "#B8DCEB", text: "#1F2937" },
+  "3":  { bg: "#7CC35B", text: "#1F2937" },
+  "4":  { bg: "#F5F3B2", text: "#1F2937" },
+  "5":  { bg: "#EEA84D", text: "#FFFFFF" },
+  "6a": { bg: "#E24A44", text: "#FFFFFF" },
+  "6b": { bg: "#B5302C", text: "#FFFFFF" },
+};
+
 export function getPTALColor(band) {
-  switch (band) {
-    case "0":
-      return "#d3cdcd";
-    case "1a":
-      return "#d9f0a3";
-    case "1b":
-      return "#addd8e";
-    case "2":
-      return "#78c679";
-    case "3":
-      return "#41ab5d";
-    case "4":
-      return "#238443";
-    case "5":
-      return "#006837";
-    case "6a":
-      return "#fdae61";
-    case "6b":
-      return "#d7191c";
-    default:
-      return "#9ca3af";
-  }
+  return PTAL_STYLES[band]?.bg || "#9ca3af";
+}
+
+export function getPTALTextColor(band) {
+  return PTAL_STYLES[band]?.text || "#1F2937";
 }

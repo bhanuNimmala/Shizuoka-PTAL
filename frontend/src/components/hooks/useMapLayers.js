@@ -46,9 +46,9 @@ function useMapLayers({ showPopulation, selectFeature }) {
   const stopPointToLayer = (feature, latlng) => {
     return L.circleMarker(latlng, {
       radius: 5,
-      color: "#000000",
+      color: "#ffffff",
       weight: 1.5,
-      fillColor: "#e9ec0d",
+      fillColor: "#00bea5",
       fillOpacity: 0.9,
       opacity: 1,
     });

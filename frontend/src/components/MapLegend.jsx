@@ -1,12 +1,12 @@
 import { useEffect } from "react";
 import { useMap } from "react-leaflet";
 import L from "leaflet";
+import { PTAL_STYLES } from "./utils/mapUtils";
 
 function MapLegend({ showPTAL, showPopulation }) {
   const map = useMap();
 
   useEffect(() => {
-    // Hide legend if no thematic layer is visible
     if (!showPTAL && !showPopulation) {
       return;
     }
@@ -16,17 +16,11 @@ function MapLegend({ showPTAL, showPopulation }) {
     legend.onAdd = () => {
       const div = L.DomUtil.create("div", "legend");
 
-      const ptalGrades = [
-        ["0", "#d3cdcd"],
-        ["1a", "#d9f0a3"],
-        ["1b", "#addd8e"],
-        ["2", "#78c679"],
-        ["3", "#41ab5d"],
-        ["4", "#238443"],
-        ["5", "#006837"],
-        ["6a", "#fdae61"],
-        ["6b", "#d7191c"],
-      ];
+      const ptalOrder = ["0", "1a", "1b", "2", "3", "4", "5", "6a", "6b"];
+      const ptalGrades = ptalOrder.map((band) => [
+        band,
+        PTAL_STYLES[band].bg,
+      ]);
 
       const populationGrades = [
         ["0–10", "#FFEDA0"],
@@ -44,44 +38,37 @@ function MapLegend({ showPTAL, showPopulation }) {
         ${
           showPTAL
             ? `
-          <div class="legend-subtitle">PTAL</div>
-
-          ${ptalGrades
-            .map(
-              ([label, color]) => `
-              <div class="legend-item">
-                <span class="legend-color" style="background:${color}"></span>
-                <span>${label}</span>
-              </div>
+              <div class="legend-subtitle">PTAL</div>
+              ${ptalGrades
+                .map(
+                  ([label, color]) => `
+                    <div class="legend-item">
+                      <span class="legend-color" style="background:${color}"></span>
+                      <span>${label}</span>
+                    </div>
+                  `
+                )
+                .join("")}
             `
-            )
-            .join("")}
-        `
             : ""
         }
 
         ${
           showPopulation
             ? `
-          ${
-            showPTAL
-              ? "<hr />"
-              : ""
-          }
-
-          <div class="legend-subtitle">Population</div>
-
-          ${populationGrades
-            .map(
-              ([label, color]) => `
-              <div class="legend-item">
-                <span class="legend-color" style="background:${color}"></span>
-                <span>${label}</span>
-              </div>
+              ${showPTAL ? "<hr />" : ""}
+              <div class="legend-subtitle">Population</div>
+              ${populationGrades
+                .map(
+                  ([label, color]) => `
+                    <div class="legend-item">
+                      <span class="legend-color" style="background:${color}"></span>
+                      <span>${label}</span>
+                    </div>
+                  `
+                )
+                .join("")}
             `
-            )
-            .join("")}
-        `
             : ""
         }
       `;
