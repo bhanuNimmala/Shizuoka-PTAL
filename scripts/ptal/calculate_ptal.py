@@ -3,33 +3,20 @@ Calculate PTAL scores from walking accessibility results.
 
 Input:
     data/processed/ptal/grid_accessibility.csv
-    data/processed/ptal/analysis_grid.geojson
+    data/processed/ptal/ptal_grid_cells.geojson
 
 Outputs:
     data/processed/ptal/ptal_results.csv
     data/processed/ptal/ptal_grid.geojson
-
-Method:
-    For each grid point and reachable stop:
-        Total Access Time (TAT) = walking_time_min + avg_wait_min
-        Equivalent Doorstep Frequency (EDF) = 30 / TAT
-
-    For each grid point:
-        Accessibility Index (AI) = sum(EDF)
-        PTAL band = category based on AI
-
-Prototype note:
-    This implementation uses a simplified PTAL-style calculation suitable for
-    the Shizuoka City prototype.
 """
 
 from __future__ import annotations
 
 import argparse
-import json
 from pathlib import Path
 
-import geopandas as gpd
+import geopandas as gpdI 
+import jenkspy
 import pandas as pd
 
 
@@ -39,6 +26,8 @@ DEFAULT_ACCESSIBILITY = PROJECT_ROOT / "data" / "processed" / "ptal" / "grid_acc
 DEFAULT_GRID = PROJECT_ROOT / "data" / "processed" / "ptal" / "ptal_grid_cells.geojson"
 DEFAULT_RESULTS_CSV = PROJECT_ROOT / "data" / "processed" / "ptal" / "ptal_results.csv"
 DEFAULT_RESULTS_GEOJSON = PROJECT_ROOT / "data" / "processed" / "ptal" / "ptal_grid.geojson"
+
+PTAL_POSITIVE_BANDS = ["1a", "1b", "2", "3", "4", "5", "6a", "6b"]
 
 
 def parse_args() -> argparse.Namespace:
@@ -50,24 +39,39 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def ptal_band(ai: float) -> str:
-    if ai <= 0:
-        return "0"
-    if ai < 2.5:
-        return "1a"
-    if ai < 5:
-        return "1b"
-    if ai < 10:
-        return "2"
-    if ai < 15:
-        return "3"
-    if ai < 20:
-        return "4"
-    if ai < 25:
-        return "5"
-    if ai < 40:
-        return "6a"
-    return "6b"
+def assign_jenks_ptal_bands(
+    df: pd.DataFrame,
+    ai_column: str = "accessibility_index",
+) -> tuple[pd.DataFrame, list[float]]:
+    df = df.copy()
+    df["ptal_band"] = "0"
+
+    positive_ai = df.loc[df[ai_column] > 0, ai_column].dropna().astype(float)
+
+    if positive_ai.empty:
+        return df, []
+
+    class_count = min(len(PTAL_POSITIVE_BANDS), positive_ai.nunique())
+
+    jenks_breaks = jenkspy.jenks_breaks(
+        positive_ai.tolist(),
+        n_classes=class_count,
+    )
+
+    bands = PTAL_POSITIVE_BANDS[: len(jenks_breaks) - 1]
+
+    def classify_ai(ai: float) -> str:
+        if pd.isna(ai) or ai <= 0:
+            return "0"
+
+        for i in range(1, len(jenks_breaks)):
+            if ai <= jenks_breaks[i]:
+                return bands[i - 1]
+
+        return bands[-1]
+
+    df["ptal_band"] = df[ai_column].apply(classify_ai)
+    return df, jenks_breaks
 
 
 def main() -> int:
@@ -122,7 +126,6 @@ def main() -> int:
         grouped["accessibility_index"] = grouped["accessibility_index"].round(3)
         grouped["min_walking_time_min"] = grouped["min_walking_time_min"].round(2)
         grouped["avg_walking_time_min"] = grouped["avg_walking_time_min"].round(2)
-        grouped["ptal_band"] = grouped["accessibility_index"].apply(ptal_band)
 
         print("Loading full grid...")
         grid = gpd.read_file(args.grid)
@@ -130,7 +133,6 @@ def main() -> int:
         if grid.crs is None:
             grid = grid.set_crs("EPSG:4326")
 
-        # Remove old PTAL result columns from polygon grid before merging new results
         old_result_columns = [
             "accessibility_index",
             "reachable_stop_count",
@@ -152,11 +154,21 @@ def main() -> int:
         result_grid = grid.merge(grouped, on="grid_id", how="left")
 
         result_grid["accessibility_index"] = result_grid["accessibility_index"].fillna(0)
-        result_grid["reachable_stop_count"] = result_grid["reachable_stop_count"].fillna(0).astype(int)
+        result_grid["reachable_stop_count"] = (
+            result_grid["reachable_stop_count"].fillna(0).astype(int)
+        )
         result_grid["min_walking_time_min"] = result_grid["min_walking_time_min"].fillna(0)
         result_grid["avg_walking_time_min"] = result_grid["avg_walking_time_min"].fillna(0)
         result_grid["max_trips_per_hour"] = result_grid["max_trips_per_hour"].fillna(0)
-        result_grid["ptal_band"] = result_grid["ptal_band"].fillna("0")
+
+        print("Assigning PTAL bands using Jenks Natural Breaks...")
+        result_grid, jenks_breaks = assign_jenks_ptal_bands(
+            result_grid,
+            ai_column="accessibility_index",
+        )
+
+        print("Jenks breaks:")
+        print(jenks_breaks)
 
         output_table = result_grid.drop(columns="geometry").copy()
 
