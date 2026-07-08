@@ -8,10 +8,24 @@ function useDashboardData(selectedPeriod) {
   const [population, setPopulation] = useState(null);
 
   useEffect(() => {
+    let cancelled = false;
+
     fetch(`${API_BASE}/ptal/?period=${selectedPeriod}`)
       .then((res) => res.json())
-      .then(setPtalData)
-      .catch((err) => console.error("PTAL API error:", err));
+      .then((data) => {
+        if (!cancelled) {
+          setPtalData(data);
+        }
+      })
+      .catch((err) => {
+        if (!cancelled) {
+          console.error("PTAL API error:", err);
+        }
+      });
+
+    return () => {
+      cancelled = true;
+    };
   }, [selectedPeriod]);
 
   useEffect(() => {

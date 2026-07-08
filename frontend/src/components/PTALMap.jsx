@@ -37,6 +37,17 @@ function PTALMap() {
     }
   };
 
+
+  const handlePeriodChange = (period) => {
+  // Only clear PTAL selection because PTAL changes with the day
+    if (selectedType === "ptal") {
+      setSelectedType(null);
+      setSelectedFeature(null);
+    }
+
+    setSelectedPeriod(period);
+  };
+  
   const {
     ptalStyle,
     populationStyle,
@@ -49,6 +60,8 @@ function PTALMap() {
   } = useMapLayers({
     showPopulation,
     selectFeature,
+    selectedType,
+    selectedFeature,
   });
 
   return (
@@ -60,11 +73,7 @@ function PTALMap() {
 
       <DashboardToolbar
         selectedPeriod={selectedPeriod}
-        setSelectedPeriod={setSelectedPeriod}
-        clearSelection={() => {
-          setSelectedType(null);
-          setSelectedFeature(null);
-        }}
+        setSelectedPeriod={handlePeriodChange}
         showPTAL={showPTAL}
         setShowPTAL={setShowPTAL}
         showPopulation={showPopulation}
@@ -108,7 +117,7 @@ function PTALMap() {
 
             {showPopulation && population && (
               <GeoJSON
-                key="population-layer"
+                key={`population-layer-${selectedType}-${selectedFeature?.properties?.KEY_CODE || ""}`}
                 data={population}
                 pane="populationPane"
                 style={populationStyle}
@@ -128,7 +137,7 @@ function PTALMap() {
 
             {showRoutes && routesData && (
               <GeoJSON
-                key="routes-layer"
+                key={`routes-layer-${selectedType}-${selectedFeature?.properties?.route_id || ""}`}
                 data={routesData}
                 pane="routePane"
                 style={routeStyle}
@@ -138,7 +147,7 @@ function PTALMap() {
 
             {showStops && stopsData && (
               <GeoJSON
-                key="stops-layer"
+                key={`stops-layer-${selectedType}-${selectedFeature?.properties?.stop_id || ""}`}
                 data={stopsData}
                 pane="stopPane"
                 pointToLayer={stopPointToLayer}

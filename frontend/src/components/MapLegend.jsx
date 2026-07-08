@@ -16,7 +16,14 @@ function MapLegend({ showPTAL, showPopulation }) {
     legend.onAdd = () => {
       const div = L.DomUtil.create("div", "legend");
 
+      const formatPTALLabel = (label) => {
+        if (label === "0") return "0 (Worst)";
+        if (label === "6b") return "6b (Best)";
+        return label;
+      };
+
       const ptalOrder = ["0", "1a", "1b", "2", "3", "4", "5", "6a", "6b"];
+
       const ptalGrades = ptalOrder.map((band) => [
         band,
         PTAL_STYLES[band].bg,
@@ -44,7 +51,7 @@ function MapLegend({ showPTAL, showPopulation }) {
                   ([label, color]) => `
                     <div class="legend-item">
                       <span class="legend-color" style="background:${color}"></span>
-                      <span>${label}</span>
+                      <span>${formatPTALLabel(label)}</span>
                     </div>
                   `
                 )

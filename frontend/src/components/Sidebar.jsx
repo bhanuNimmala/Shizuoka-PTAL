@@ -2,6 +2,7 @@ import PTALCard from "./cards/PTALCard";
 import PopulationCard from "./cards/PopulationCard";
 import StopCard from "./cards/StopCard";
 import RouteCard from "./cards/RouteCard";
+import FeatureInfoCard from "./cards/FeatureInfoCard";
 
 function Sidebar({ selectedType, selectedFeature, clearSelection }) {
   return (
@@ -43,6 +44,10 @@ function Sidebar({ selectedType, selectedFeature, clearSelection }) {
 
         {selectedType === "route" && selectedFeature && (
           <RouteCard feature={selectedFeature} />
+        )}
+
+        {selectedType && (
+            <FeatureInfoCard selectedType={selectedType} />
         )}
       </section>
     </aside>

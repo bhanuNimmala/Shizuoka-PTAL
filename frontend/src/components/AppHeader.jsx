@@ -5,7 +5,7 @@ function AppHeader({ onOpenPTAL, onOpenAbout }) {
     <header className="app-header">
       <div>
         <h1>Shizuoka PTAL Dashboard</h1>
-        <p>Public Transport Accessibility Analysis</p>
+        <p>Public Transport Accessibility Analysis (Community Bus)</p>
       </div>
 
       <div className="app-header-actions">

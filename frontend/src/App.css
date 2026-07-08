@@ -252,18 +252,19 @@ body {
 
 .result-card {
   background: #ffffff;
-  border-radius: 12px;
-  padding: 16px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  border: 1px solid #d7e8dc;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 8px 24px rgba(31, 61, 43, 0.06);
 }
 
 .result-card h2 {
   text-align: center;
-  margin: 0 0 12px 0;
+  margin: 0 0 14px;
   color: var(--title-text);
   font-size: 20px;
+  font-weight: 700;
 }
-
 .score-circle {
   width: 84px;
   height: 84px;
@@ -279,21 +280,23 @@ body {
 }
 
 .card-details {
-  background: #f1f5f9;
-  padding: 12px;
-  border-radius: 10px;
+  background: #eef6f0;
+  border: 1px solid #d7e8dc;
+  padding: 14px;
+  border-radius: 12px;
   margin-top: 12px;
   overflow-wrap: break-word;
+  text-align: center;
 }
 
 .card-details p {
   margin: 8px 0;
   font-size: 14px;
-  color: #374151;
+  color: #314338;
 }
 
 .card-details strong {
-  color: #111827;
+  color: var(--primary-dark);
 }
 
 .legend {
@@ -430,4 +433,63 @@ body {
 
 .modal-close:hover {
   color: var(--primary-dark);
+}
+
+.feature-card {
+  background: #ffffff;
+  border: 1px solid #d7e8dc;
+  border-radius: 16px;
+  padding: 18px;
+  margin-top: 8px;
+  box-shadow: 0 8px 24px rgba(31, 61, 43, 0.06);
+}
+
+.feature-card h3 {
+  margin: 0 0 14px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--title-text);
+  text-align: center;
+}
+
+.feature-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature-info-row {
+  padding: 13px 14px;
+  background: #eef6f0;
+  border: 1px solid #d7e8dc;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.feature-info-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--primary-dark);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.feature-info-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #314338;
+}
+
+.toolbar-select:disabled {
+  background: #f3f4f6;
+  color: #9ca3af;
+  cursor: not-allowed;
+  border-color: #e5e7eb;
+}
+
+.toolbar-group.disabled .toolbar-label {
+  color: #9ca3af;
 }

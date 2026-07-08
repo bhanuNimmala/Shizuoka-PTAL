@@ -59,7 +59,7 @@ export function formatNumber(value) {
 }
 
 export const PTAL_STYLES = {
-  "0":  { bg: "#F2F2F2", text: "#1F2937" },
+  "0":  { bg: "#e2e0e0", text: "#1F2937" },
   "1a": { bg: "#31367F", text: "#FFFFFF" },
   "1b": { bg: "#7678BE", text: "#FFFFFF" },
   "2":  { bg: "#B8DCEB", text: "#1F2937" },
