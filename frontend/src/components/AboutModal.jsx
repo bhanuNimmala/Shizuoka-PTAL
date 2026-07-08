@@ -31,22 +31,22 @@ function AboutModal({ onClose }) {
         <section className="modal-section">
           <h3>Data Used</h3>
           <ul>
-            <li>Shizuoka City community bus GTFS data</li>
-            <li>OpenStreetMap walking network</li>
-            <li>Shizuoka City boundary data</li>
-            <li>2020 population census mesh data</li>
+            <li>Shizuoka City Community Bus GTFS</li>
+            <li>OpenStreetMap Walking Network (OSMnx)</li>
+            <li>Shizuoka City  Administrative Boundary data</li>
+            <li>e-Stat 2020 Census 500 m Population Mesh</li>
           </ul>
         </section>
 
         <section className="modal-section">
           <h3>Technology Stack</h3>
-          <ul>
-            <li>Backend: Django</li>
-            <li>Frontend: React</li>
-            <li>Mapping: Leaflet</li>
-            <li>Data processing: Pandas, GeoPandas, Shapely</li>
-            <li>Prototype database: SQLite</li>
-          </ul>
+            <ul>
+              <li>Backend: Django</li>
+              <li>Frontend: React</li>
+              <li>Mapping: Leaflet</li>
+              <li>Data Processing: Pandas, GeoPandas, Shapely, OSMnx</li>
+              <li>Data Exchange: GeoJSON</li>
+            </ul>
         </section>
 
         <section className="modal-section">
