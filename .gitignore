@@ -28,5 +28,7 @@ Thumbs.db
 # Python cache
 .pytest_cache/
 
+cache/
+
 # Environment
 .idea/
