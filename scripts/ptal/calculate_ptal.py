@@ -15,7 +15,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-import geopandas as gpdI 
+import geopandas as gpd
 import jenkspy
 import pandas as pd
 
