@@ -131,8 +131,7 @@ function PTALMap() {
             )}
 
             {showPTAL &&
-              ptalData &&
-              ptalDataPeriod === selectedPeriod && (
+              ptalData && (
                 <GeoJSON
                   key={`ptal-layer-${ptalDataPeriod}-${showPopulation}-${selectedType}-${
                     selectedFeature?.properties?.grid_id || ""
