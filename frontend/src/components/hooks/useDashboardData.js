@@ -3,28 +3,37 @@ import { API_BASE } from "../utils/mapUtils";
 
 function useDashboardData(selectedPeriod) {
   const [ptalData, setPtalData] = useState(null);
+  const [ptalDataPeriod, setPtalDataPeriod] = useState(null);
+
   const [routesData, setRoutesData] = useState(null);
   const [stopsData, setStopsData] = useState(null);
   const [population, setPopulation] = useState(null);
 
   useEffect(() => {
-    let cancelled = false;
+    const controller = new AbortController();
 
-    fetch(`${API_BASE}/ptal/?period=${selectedPeriod}`)
-      .then((res) => res.json())
-      .then((data) => {
-        if (!cancelled) {
-          setPtalData(data);
+    fetch(`${API_BASE}/ptal/?period=${selectedPeriod}`, {
+      signal: controller.signal,
+    })
+      .then((res) => {
+        if (!res.ok) {
+          throw new Error(`PTAL request failed: ${res.status}`);
         }
+
+        return res.json();
+      })
+      .then((data) => {
+        setPtalData(data);
+        setPtalDataPeriod(selectedPeriod);
       })
       .catch((err) => {
-        if (!cancelled) {
+        if (err.name !== "AbortError") {
           console.error("PTAL API error:", err);
         }
       });
 
     return () => {
-      cancelled = true;
+      controller.abort();
     };
   }, [selectedPeriod]);
 
@@ -47,6 +56,7 @@ function useDashboardData(selectedPeriod) {
 
   return {
     ptalData,
+    ptalDataPeriod,
     routesData,
     stopsData,
     population,

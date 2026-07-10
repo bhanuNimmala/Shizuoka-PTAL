@@ -14,8 +14,13 @@ import AboutModal from "./AboutModal";
 
 function PTALMap() {
   const [selectedPeriod, setSelectedPeriod] = useState("monday_full_day");
-  const { ptalData, routesData, stopsData, population } =
-    useDashboardData(selectedPeriod);
+  const {
+  ptalData,
+  ptalDataPeriod,
+  routesData,
+  stopsData,
+  population,
+} = useDashboardData(selectedPeriod);
 
   const [selectedType, setSelectedType] = useState(null);
   const [selectedFeature, setSelectedFeature] = useState(null);
@@ -125,15 +130,19 @@ function PTALMap() {
               />
             )}
 
-            {showPTAL && ptalData && (
-              <GeoJSON
-                key={`ptal-layer-${selectedType}-${selectedPeriod}-${showPopulation}-${selectedFeature?.properties?.grid_id || ""}`}
-                data={ptalData}
-                pane="ptalPane"
-                style={ptalStyle}
-                onEachFeature={onEachPTALFeature}
-              />
-            )}
+            {showPTAL &&
+              ptalData &&
+              ptalDataPeriod === selectedPeriod && (
+                <GeoJSON
+                  key={`ptal-layer-${ptalDataPeriod}-${showPopulation}-${selectedType}-${
+                    selectedFeature?.properties?.grid_id || ""
+                  }`}
+                  data={ptalData}
+                  pane="ptalPane"
+                  style={ptalStyle}
+                  onEachFeature={onEachPTALFeature}
+                />
+              )}
 
             {showRoutes && routesData && (
               <GeoJSON
